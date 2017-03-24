@@ -1,0 +1,3590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<so:catalogo xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:so="http://informatica.math.unipd.it" xs:schemaLocation="http://informatica.math.unipd.it prodotti.xsd">
+	<prodotto codice="00001">
+		<nome>Misfits</nome>
+		<materiale>Jeans</materiale>
+		<tipologia>Pantalone</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="0">52.00</prezzo>
+		<descrizione>Jeans skinny di ottima qualit&amp;agrave; adatto per ogni occasione</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Azzurro</colore>
+			<colore>Blu</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>jeans001.jpg</immagine>
+			<immagine>jeans002.jpg</immagine>
+			<immagine>jeans003.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00002">
+		<nome>Chishaped</nome>
+		<materiale>Jeans</materiale>
+		<tipologia>Pantalone</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="0">75.50</prezzo>
+		<descrizione>Jeans scuro classico, leggermente sbiadito ad altezza ginocchia. Di ottima fattura</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Blu</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>jeans004.jpg</immagine>
+			<immagine>jeans005.jpg</immagine>
+			<immagine>jeans006.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00003">
+		<nome>Thavar</nome>
+		<materiale>Jeans</materiale>
+		<tipologia>Pantalone</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="20">70.00</prezzo>
+		<descrizione>Jeans skinny chiaro con un ottimo rapporto qualit&amp;agrave; prezzo</descrizione>
+		<taglieDisponibili>
+			<taglia>L</taglia>
+			<taglia>XL</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Bianco</colore>
+			<colore>Blu</colore>
+			<colore>Azzurro</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>jeans007.jpg</immagine>
+			<immagine>jeans008.jpg</immagine>
+			<immagine>jeans009.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00004">
+		<nome>Rover</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>Giubbotto</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="10">102.50</prezzo>
+		<descrizione>Giubbotto scuro adatto alla stagione invernale. Rapporto qualit&amp;agrave; prezzo eccellente</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Rosso</colore>
+			<colore>Blu</colore>
+			<colore>Marrone</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>giubbotto001.jpg</immagine>
+			<immagine>giubbotto002.jpg</immagine>
+			<immagine>giubbotto003.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00005">
+		<nome>Whistler</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>Giubbotto</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="0">81.00</prezzo>
+		<descrizione>Giubbotto sportivo con imbottitura in vera piuma, adatto sia alla stagione autunnale che a quella invernale</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Blu</colore>
+			<colore>Grigio</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>giubbotto004.jpg</immagine>
+			<immagine>giubbotto005.jpg</immagine>
+			<immagine>giubbotto006.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00006">
+		<nome>Blake</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>Giubbotto</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="0">65.00</prezzo>
+		<descrizione>Giubbotto autunnale con interno particolare e molto curato</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Giallo</colore>
+			<colore>Marrone</colore>
+			<colore>Verde</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>giubbotto007.jpg</immagine>
+			<immagine>giubbotto008.jpg</immagine>
+			<immagine>giubbotto009.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00007">
+		<nome>Reince</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Maglione</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="0">39.00</prezzo>
+		<descrizione>Maglione scuro di cotone molto semplice ma allo stesso tempo elegante</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Blu</colore>
+			<colore>Marrone</colore>
+			<colore>Grigio</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>maglione001.jpg</immagine>
+			<immagine>maglione002.jpg</immagine>
+			<immagine>maglione003.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00008">
+		<nome>Satre</nome>
+		<materiale>Lana</materiale>
+		<tipologia>Maglione</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="0">45.00</prezzo>
+		<descrizione>Maglione di lana scuro con motivo geometrico bianco sulla parte superiore (petto e spalle)</descrizione>
+		<taglieDisponibili>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+			<taglia>XL</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Bianco</colore>
+			<colore>Rosso</colore>
+			<colore>Blu</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>maglione004.jpg</immagine>
+			<immagine>maglione005.jpg</immagine>
+			<immagine>maglione006.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00009">
+		<nome>Brayden</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Maglione</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="15">65.00</prezzo>
+		<descrizione>Maglione leggero con motivo intrecciato e chiusura con alamari</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Blu</colore>
+			<colore>Grigio</colore>
+			<colore>Verde</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>maglione007.jpg</immagine>
+			<immagine>maglione008.jpg</immagine>
+			<immagine>maglione009.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00010">
+		<nome>Wescargo</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Pantalone</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="20">72.00</prezzo>
+		<descrizione>Pantalone sportivo con due tasconi laterali ed elasticizzato sulle caviglie</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Marrone</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>pant001.jpg</immagine>
+			<immagine>pant002.jpg</immagine>
+			<immagine>pant003.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00011">
+		<nome>Agent</nome>
+		<materiale>Seta</materiale>
+		<tipologia>Pantalone</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="25">85.00</prezzo>
+		<descrizione>Pantalone scuro di seta elasticizzato sulle caviglie</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>XL</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Bianco</colore>
+			<colore>Grigio</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>pant004.jpg</immagine>
+			<immagine>pant005.jpg</immagine>
+			<immagine>pant006.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00012">
+		<nome>Oscale</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Pantalone</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="35">47.00</prezzo>
+		<descrizione>Pantalone classico ed elegante adatto per le occasioni mondane</descrizione>
+		<taglieDisponibili>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Giallo</colore>
+			<colore>Blu</colore>
+			<colore>Marrone</colore>
+			<colore>Grigio</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>pant007.jpg</immagine>
+			<immagine>pant008.jpg</immagine>
+			<immagine>pant009.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00013">
+		<nome>Nisbiel</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Completo</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="15">125.50</prezzo>
+		<descrizione>Completo elegante di cotone adatto per occasioni importanti</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Blu</colore>
+			<colore>Grigio</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>completo001.jpg</immagine>
+			<immagine>completo002.jpg</immagine>
+			<immagine>completo003.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00014">
+		<nome>Vebir</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Completo</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="0">106.00</prezzo>
+		<descrizione>Completo scuro di cotone, classico ed elegante di ottima fattura</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>XL</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Blu</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>completo004.jpg</immagine>
+			<immagine>completo005.jpg</immagine>
+			<immagine>completo006.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00015">
+		<nome>Samar</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>Felpa</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="10">42.00</prezzo>
+		<descrizione>Felpa monocolore con cappuccio e tascone frontale</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Rosso</colore>
+			<colore>Blu</colore>
+			<colore>Grigio</colore>
+			<colore>Verde</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>felpa001.jpg</immagine>
+			<immagine>felpa002.jpg</immagine>
+			<immagine>felpa003.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00016">
+		<nome>Biny</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Felpa</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="15">39.00</prezzo>
+		<descrizione>Felpa monocolore di cotone con cappuccio e chiusura a zip</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Blu</colore>
+			<colore>Grigio</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>felpa004.jpg</immagine>
+			<immagine>felpa005.jpg</immagine>
+			<immagine>felpa006.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00017">
+		<nome>Kelad</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Felpa</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="0">65.00</prezzo>
+		<descrizione>Felpa bicolore con cappuccio imbottito, adatta alla stagione invernale</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Blu</colore>
+			<colore>Grigio</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>felpa007.jpg</immagine>
+			<immagine>felpa008.jpg</immagine>
+			<immagine>felpa009.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00018">
+		<nome>Nais</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Camicia</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="0">44.00</prezzo>
+		<descrizione>Camicia classica di cotone adatta ad ogni occasione</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Bianco</colore>
+			<colore>Blu</colore>
+			<colore>Grigio</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>camicia001.jpg</immagine>
+			<immagine>camicia002.jpg</immagine>
+			<immagine>camicia003.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00019">
+		<nome>Lein</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Camicia</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="0">60.00</prezzo>
+		<descrizione>Camicia slim fit di cotone adatta ad ogni occasione</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Bianco</colore>
+			<colore>Azzurro</colore>
+			<colore>Blu</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>camicia004.jpg</immagine>
+			<immagine>camicia005.jpg</immagine>
+			<immagine>camicia006.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00020">
+		<nome>Inala</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Camicia</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="20">50.00</prezzo>
+		<descrizione>Camicia a taglio classico molto elegante e raffinata</descrizione>
+		<taglieDisponibili>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Azzurro</colore>
+			<colore>Rosso</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>camicia007.jpg</immagine>
+			<immagine>camicia008.jpg</immagine>
+			<immagine>camicia009.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00021">
+		<nome>Beld</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Camicia</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="0">45.00</prezzo>
+		<descrizione>Camicia slim fit di cotone, sportiva ma allo stesso tempo formale</descrizione>
+		<taglieDisponibili>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Bianco</colore>
+			<colore>Blu</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>camicia010.jpg</immagine>
+			<immagine>camicia011.jpg</immagine>
+			<immagine>camicia012.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00022">
+		<nome>Felt</nome>
+		<materiale>Velluto</materiale>
+		<tipologia>Giacca</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="0">82.50</prezzo>
+		<descrizione>Giacca sportiva di velluto disponibile solo in colori scuri</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Blu</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>giacca001.jpg</immagine>
+			<immagine>giacca002.jpg</immagine>
+			<immagine>giacca003.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00023">
+		<nome>Fimer</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Giacca</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="15">70.00</prezzo>
+		<descrizione>Giacca elegante di cotone ottima per avvenimenti importanti o formali</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Blu</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>giacca004.jpg</immagine>
+			<immagine>giacca005.jpg</immagine>
+			<immagine>giacca006.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00024">
+		<nome>Street</nome>
+		<materiale>Jeans</materiale>
+		<tipologia>Giacca</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="20">59.00</prezzo>
+		<descrizione>Giacca in jeans sportiva e ad un prezzo molto vantaggioso</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Blu</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>giacca007.jpg</immagine>
+			<immagine>giacca008.jpg</immagine>
+			<immagine>giacca009.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00025">
+		<nome>Stirpol</nome>
+		<materiale>Jeans</materiale>
+		<tipologia>Giacca</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="0">64.50</prezzo>
+		<descrizione>Giacca in jeans chiaro molto sportiva e molto resistente</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Blu</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>giacca010.jpg</immagine>
+			<immagine>giacca011.jpg</immagine>
+			<immagine>giacca012.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00026">
+		<nome>Lederty</nome>
+		<materiale>Seta</materiale>
+		<tipologia>Giacca</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="0">81.00</prezzo>
+		<descrizione>Giacca di seta molto elegante e raffinata per occasioni importanti</descrizione>
+		<taglieDisponibili>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+			<taglia>XL</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Blu</colore>
+			<colore>Grigio</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>giacca013.jpg</immagine>
+			<immagine>giacca014.jpg</immagine>
+			<immagine>giacca015.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00027">
+		<nome>Swalt</nome>
+		<materiale>Pelle</materiale>
+		<tipologia>Giacca</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="10">95.50</prezzo>
+		<descrizione>Giacca in pelle scura con leggere imbottiture su spalle e gomiti</descrizione>
+		<taglieDisponibili>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Blu</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>giacca016.jpg</immagine>
+			<immagine>giacca017.jpg</immagine>
+			<immagine>giacca018.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00028">
+		<nome>Abstram</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>T-Shirt</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="0">25.00</prezzo>
+		<descrizione>T-shirt scura con disegno frontale molto particolareggiato e complesso</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Bianco</colore>
+			<colore>Rosso</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>tshirt001.jpg</immagine>
+			<immagine>tshirt002.jpg</immagine>
+			<immagine>tshirt003.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00029">
+		<nome>Skullwave</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>T-Shirt</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="10">20.00</prezzo>
+		<descrizione>T-shirt scura con disegno frontale di un teschio molto colorato</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+			<taglia>XL</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Bianco</colore>
+			<colore>Grigio</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>tshirt004.jpg</immagine>
+			<immagine>tshirt005.jpg</immagine>
+			<immagine>tshirt006.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00030">
+		<nome>Travicy</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>T-Shirt</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="10">22.50</prezzo>
+		<descrizione>T-shirt di cotone con stampa frontale di una tipica strada di Los Angeles</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Bianco</colore>
+			<colore>Grigio</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>tshirt007.jpg</immagine>
+			<immagine>tshirt008.jpg</immagine>
+			<immagine>tshirt009.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00031">
+		<nome>Nomate</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>T-Shirt</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="0">35.00</prezzo>
+		<descrizione>T-shirt scura con taschino sul cuore colorato e a motivo geometrico</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Blu</colore>
+			<colore>Grigio</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>tshirt010.jpg</immagine>
+			<immagine>tshirt011.jpg</immagine>
+			<immagine>tshirt012.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00032">
+		<nome>Lackgrun</nome>
+		<materiale>Pelle</materiale>
+		<tipologia>Stivale</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="0">85.00</prezzo>
+		<descrizione>Stivale in pelle elegante e molto comodo</descrizione>
+		<taglieDisponibili>
+			<taglia>40</taglia>
+			<taglia>41</taglia>
+			<taglia>43</taglia>
+			<taglia>44</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Marrone</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>scarpa001.jpg</immagine>
+			<immagine>scarpa002.jpg</immagine>
+			<immagine>scarpa003.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00033">
+		<nome>Offwall</nome>
+		<materiale>Pelle</materiale>
+		<tipologia>Scarpa</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="15">72.00</prezzo>
+		<descrizione>Scarpa sportiva con laccio in corda, adatta a chi pratica skateboard in stagione invernale</descrizione>
+		<taglieDisponibili>
+			<taglia>40.5</taglia>
+			<taglia>41.5</taglia>
+			<taglia>43</taglia>
+			<taglia>44</taglia>
+			<taglia>44.5</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Rosso</colore>
+			<colore>Grigio</colore>
+			<colore>Verde</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>scarpa004.jpg</immagine>
+			<immagine>scarpa005.jpg</immagine>
+			<immagine>scarpa006.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00034">
+		<nome>Westside</nome>
+		<materiale>Pelle</materiale>
+		<tipologia>Stivale</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="0">99.00</prezzo>
+		<descrizione>Stivaletto in colorazione scura molto elegante ma allo stesso tempo sportivo, adatto anche ad un look casual</descrizione>
+		<taglieDisponibili>
+			<taglia>42</taglia>
+			<taglia>43</taglia>
+			<taglia>44</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Marrone</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>scarpa007.jpg</immagine>
+			<immagine>scarpa008.jpg</immagine>
+			<immagine>scarpa009.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00035">
+		<nome>Easky</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>Scarpa</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="0">63.50</prezzo>
+		<descrizione>Scarpa da running molto sportiva, adatta anche per lunghe passeggiate nel tempo libero</descrizione>
+		<taglieDisponibili>
+			<taglia>39</taglia>
+			<taglia>40</taglia>
+			<taglia>42</taglia>
+			<taglia>42.5</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Grigio</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>scarpa010.jpg</immagine>
+			<immagine>scarpa011.jpg</immagine>
+			<immagine>scarpa012.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00036">
+		<nome>Ryder</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>Scarpa</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="0">88.00</prezzo>
+		<descrizione>Scarpa sportiva con suola morbida molto confortevole e alla moda per il tempo libero</descrizione>
+		<taglieDisponibili>
+			<taglia>39</taglia>
+			<taglia>40</taglia>
+			<taglia>41</taglia>
+			<taglia>42</taglia>
+			<taglia>43</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Blu</colore>
+			<colore>Grigio</colore>
+			<colore>Verde</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>scarpa013.jpg</immagine>
+			<immagine>scarpa014.jpg</immagine>
+			<immagine>scarpa015.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00037">
+		<nome>Comance</nome>
+		<materiale>Pelle</materiale>
+		<tipologia>Infradito</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="10">46.00</prezzo>
+		<descrizione>Infradito in pelle di ottima fattura per le vostre serate al mare</descrizione>
+		<taglieDisponibili>
+			<taglia>40</taglia>
+			<taglia>42</taglia>
+			<taglia>43</taglia>
+			<taglia>44</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Marrone</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>infradito001.jpg</immagine>
+			<immagine>infradito002.jpg</immagine>
+			<immagine>infradito003.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00038">
+		<nome>Quicky</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>Infradito</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="0">32.00</prezzo>
+		<descrizione>Infradito in materiale sintetico molto comoda per il mare o la piscina</descrizione>
+		<taglieDisponibili>
+			<taglia>39</taglia>
+			<taglia>41</taglia>
+			<taglia>42</taglia>
+			<taglia>42.5</taglia>
+			<taglia>43</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Blu</colore>
+			<colore>Grigio</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>infradito004.jpg</immagine>
+			<immagine>infradito005.jpg</immagine>
+			<immagine>infradito006.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00039">
+		<nome>Targim</nome>
+		<materiale>Acciaio</materiale>
+		<tipologia>Collana</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="0">29.00</prezzo>
+		<descrizione>Collana molto accattivante con doppia targhetta pendaglio in acciaio</descrizione>
+		<taglieDisponibili>
+			<taglia>Unica</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Unico</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>collana001.jpg</immagine>
+			<immagine>collana002.jpg</immagine>
+			<immagine>collana003.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00040">
+		<nome>Brumil</nome>
+		<materiale>Acciaio</materiale>
+		<tipologia>Collana</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="10">45.00</prezzo>
+		<descrizione>Collana con laccio in pvc e anelli di diverse misure in acciaio molto sportiva e raffinata</descrizione>
+		<taglieDisponibili>
+			<taglia>Unica</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Unico</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>collana004.jpg</immagine>
+			<immagine>collana005.jpg</immagine>
+			<immagine>collana006.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00041">
+		<nome>Bibot</nome>
+		<materiale>Acciaio</materiale>
+		<tipologia>Bracciale</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="0">42.00</prezzo>
+		<descrizione>Bracciale con catena in acciaio molto raffinato, adatto ad un uomo con un look elegante</descrizione>
+		<taglieDisponibili>
+			<taglia>Unica</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Unico</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>bracciale001.jpg</immagine>
+			<immagine>bracciale002.jpg</immagine>
+			<immagine>bracciale003.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00042">
+		<nome>Foser</nome>
+		<materiale>Cuoio</materiale>
+		<tipologia>Bracciale</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="0">30.00</prezzo>
+		<descrizione>Bracciale in cuoio per tutte le occasioni</descrizione>
+		<taglieDisponibili>
+			<taglia>Unica</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Unico</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>bracciale004.jpg</immagine>
+			<immagine>bracciale005.jpg</immagine>
+			<immagine>bracciale006.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00043">
+		<nome>Geven</nome>
+		<materiale>Cuoio</materiale>
+		<tipologia>Bracciale</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="10">27.50</prezzo>
+		<descrizione>Bracciale in cuoio con dettagli in acciaio molto estivo e sportivo</descrizione>
+		<taglieDisponibili>
+			<taglia>Unica</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Unico</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>bracciale007.jpg</immagine>
+			<immagine>bracciale008.jpg</immagine>
+			<immagine>bracciale009.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00044">
+		<nome>Neither</nome>
+		<materiale>Pelle</materiale>
+		<tipologia>Cintura</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="0">35.00</prezzo>
+		<descrizione>Classica cintura elegante e sportiva, perfetto accessorio per un completo</descrizione>
+		<taglieDisponibili>
+			<taglia>Unica</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Unico</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>cintura001.jpg</immagine>
+			<immagine>cintura002.jpg</immagine>
+			<immagine>cintura003.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00045">
+		<nome>Torra</nome>
+		<materiale>Pelle</materiale>
+		<tipologia>Cintura</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="0">25.00</prezzo>
+		<descrizione>Cintura in pelle grezza che accompagna l'uomo nella vita lavorativa di tutti i giorni</descrizione>
+		<taglieDisponibili>
+			<taglia>Unica</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Unico</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>cintura004.jpg</immagine>
+			<immagine>cintura005.jpg</immagine>
+			<immagine>cintura006.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00046">
+		<nome>Altin</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Cappello</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="15">37.00</prezzo>
+		<descrizione>Cappello modello borsalino in pesante cotone dalle linee classiche con piuma molto raffinata</descrizione>
+		<taglieDisponibili>
+			<taglia>Unica</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Unico</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>cappello001.jpg</immagine>
+			<immagine>cappello002.jpg</immagine>
+			<immagine>cappello003.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00047">
+		<nome>Cavel</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>Cappello</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="0">29.00</prezzo>
+		<descrizione>Cappello classico modello pork pie, molto sportivo</descrizione>
+		<taglieDisponibili>
+			<taglia>Unica</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Unico</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>cappello004.jpg</immagine>
+			<immagine>cappello005.jpg</immagine>
+			<immagine>cappello006.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00048">
+		<nome>Goldy</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Cappello</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="0">40.00</prezzo>
+		<descrizione>Cappello con frontino alla moda molto sportivo ed esuberante</descrizione>
+		<taglieDisponibili>
+			<taglia>Unica</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Unico</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>cappello007.jpg</immagine>
+			<immagine>cappello008.jpg</immagine>
+			<immagine>cappello009.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00049">
+		<nome>Kolder</nome>
+		<materiale>Lana</materiale>
+		<tipologia>Cappello</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="20">21.00</prezzo>
+		<descrizione>Cappello in lana con pon pon adatto alla stagione invernale, per le pi&amp;ugrave; fredde giornate</descrizione>
+		<taglieDisponibili>
+			<taglia>Unica</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Unico</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>cappello010.jpg</immagine>
+			<immagine>cappello011.jpg</immagine>
+			<immagine>cappello012.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00050">
+		<nome>Extreme</nome>
+		<materiale>Jeans</materiale>
+		<tipologia>Pantalone</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="70">72.00</prezzo>
+		<descrizione>Comodo jeans skinny adatto per le uscite di tutti i giorni</descrizione>
+		<taglieDisponibili>
+			<taglia>XS</taglia>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Azzurro</colore>
+			<colore>Blu</colore>
+			<colore>Nero</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>jeans010.jpg</immagine>
+			<immagine>jeans011.jpg</immagine>
+			<immagine>jeans012.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00051">
+		<nome>Joni</nome>
+		<materiale>Jeans</materiale>
+		<tipologia>Pantalone</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="10">55.00</prezzo>
+		<descrizione>Jeans attillato disponibile in colorazione scura</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Blu</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>jeans013.jpg</immagine>
+			<immagine>jeans014.jpg</immagine>
+			<immagine>jeans015.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00052">
+		<nome>Venus</nome>
+		<materiale>Seta</materiale>
+		<tipologia>Pantalone</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="0">60.00</prezzo>
+		<descrizione>Delicato e particolare pantalone di seta, per un otufit diverso dal solito</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Marrone</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>pant010.jpg</immagine>
+			<immagine>pant011.jpg</immagine>
+			<immagine>pant012.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00053">
+		<nome>Livier</nome>
+		<materiale>Pelle</materiale>
+		<tipologia>Pantalone</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="20">85.00</prezzo>
+		<descrizione>Pantalone skinny in pelle dall'aspetto molto aggressivo e sensuale</descrizione>
+		<taglieDisponibili>
+			<taglia>XS</taglia>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>pant013.jpg</immagine>
+			<immagine>pant014.jpg</immagine>
+			<immagine>pant015.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00054">
+		<nome>Leysha</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Pantalone</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="0">60.00</prezzo>
+		<descrizione>Pantalone in cotone dalle linee classiche adatto per qualsiasi occasione</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>XL</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Grigio</colore>
+			<colore>Marrone</colore>
+			<colore>Nero</colore>
+			<colore>Blu</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>pant016.jpg</immagine>
+			<immagine>pant017.jpg</immagine>
+			<immagine>pant018.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00055">
+		<nome>Devera</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Maglione</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="0">45.00</prezzo>
+		<descrizione>Comodo e leggero maglione in cotone, dalla cadenza larga</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Verde</colore>
+			<colore>Rosso</colore>
+			<colore>Nero</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>maglione010.jpg</immagine>
+			<immagine>maglione011.jpg</immagine>
+			<immagine>maglione012.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00056">
+		<nome>Roxy</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Maglione</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="15">60.00</prezzo>
+		<descrizione>Maglione dal motivo molto particolare e suggestivo, consigliato in abbinamento con un pantalone skinny</descrizione>
+		<taglieDisponibili>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+			<taglia>XL</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Bianco</colore>
+			<colore>Grigio</colore>
+			<colore>Blu</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>maglione013.jpg</immagine>
+			<immagine>maglione014.jpg</immagine>
+			<immagine>maglione015.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00057">
+		<nome>Borg</nome>
+		<materiale>Lana</materiale>
+		<tipologia>Maglione</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="10">72.50</prezzo>
+		<descrizione>Caldo maglione in lana senza chiusura</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+			<taglia>XL</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Grigio</colore>
+			<colore>Nero</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>maglione016.jpg</immagine>
+			<immagine>maglione017.jpg</immagine>
+			<immagine>maglione018.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00058">
+		<nome>Plenty</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Maglione</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="0">44.00</prezzo>
+		<descrizione>Maglione a collo alto per la stagione invernale</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Rosso</colore>
+			<colore>Blu</colore>
+			<colore>Grigio</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>maglione019.jpg</immagine>
+			<immagine>maglione020.jpg</immagine>
+			<immagine>maglione021.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00059">
+		<nome>Origin</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Felpa</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="10">39.00</prezzo>
+		<descrizione>Felpa sportiva senza cappuccio in puro cotone</descrizione>
+		<taglieDisponibili>
+			<taglia>XS</taglia>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Grigio</colore>
+			<colore>Nero</colore>
+			<colore>Verde</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>felpa010.jpg</immagine>
+			<immagine>felpa011.jpg</immagine>
+			<immagine>felpa012.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00060">
+		<nome>Chaos</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>Felpa</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="0">60.00</prezzo>
+		<descrizione>Felpa dalle particolari cuciture sulle spalle e cerniere laterali</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Bianco</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>felpa013.jpg</immagine>
+			<immagine>felpa014.jpg</immagine>
+			<immagine>felpa015.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00061">
+		<nome>Adventure</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Felpa</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="0">60.00</prezzo>
+		<descrizione>Comoda e sportiva felpa con cappuccio, con scritta frontale colorata</descrizione>
+		<taglieDisponibili>
+			<taglia>XS</taglia>
+			<taglia>L</taglia>
+			<taglia>XL</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Blu</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>felpa016.jpg</immagine>
+			<immagine>felpa017.jpg</immagine>
+			<immagine>felpa018.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00062">
+		<nome>Onlange</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>T-Shirt</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="10">25.00</prezzo>
+		<descrizione>T-Shirt dalle maniche tagliate alte e pagliette sulle spalle</descrizione>
+		<taglieDisponibili>
+			<taglia>XS</taglia>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Grigio</colore>
+			<colore>Azzurro</colore>
+			<colore>Bianco</colore>
+			<colore>Nero</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>tshirt013.jpg</immagine>
+			<immagine>tshirt014.jpg</immagine>
+			<immagine>tshirt015.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00063">
+		<nome>Roal</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>T-Shirt</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="0">32.50</prezzo>
+		<descrizione>T-Shirt corta completamente rivestita di pagliette, che la rendono molto luminosa</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Grigio</colore>
+			<colore>Blu</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>tshirt016.jpg</immagine>
+			<immagine>tshirt017.jpg</immagine>
+			<immagine>tshirt018.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00064">
+		<nome>Melvy</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>T-Shirt</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="0">20.00</prezzo>
+		<descrizione>T-Shirt leggera ed elegante, con motivo astratto che da l'idea di trasparenza</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Grigio</colore>
+			<colore>Rosso</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>tshirt019.jpg</immagine>
+			<immagine>tshirt020.jpg</immagine>
+			<immagine>tshirt021.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00065">
+		<nome>Diana</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>Gonna</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="0">38.50</prezzo>
+		<descrizione>Gonna scura con vita elasticizzata e finte piume</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Marrone</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>gonna001.jpg</immagine>
+			<immagine>gonna002.jpg</immagine>
+			<immagine>gonna003.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00066">
+		<nome>Gander</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Gonna</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="0">45.00</prezzo>
+		<descrizione>Gonna molto elegante dalle linee classiche</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Rosso</colore>
+			<colore>Nero</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>gonna004.jpg</immagine>
+			<immagine>gonna005.jpg</immagine>
+			<immagine>gonna006.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00067">
+		<nome>Marais</nome>
+		<materiale>Pelle</materiale>
+		<tipologia>Shorts</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="0">49.00</prezzo>
+		<descrizione>Shorts in pelle con cerniere frontali</descrizione>
+		<taglieDisponibili>
+			<taglia>XS</taglia>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>shorts001.jpg</immagine>
+			<immagine>shorts002.jpg</immagine>
+			<immagine>shorts003.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00068">
+		<nome>Zanny</nome>
+		<materiale>Velluto</materiale>
+		<tipologia>Shorts</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="10">39.00</prezzo>
+		<descrizione>Shorts in velluto dall'ottima qualit&amp;agrave; e dall'aspetto elegante e delicato</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Blu</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>shorts004.jpg</immagine>
+			<immagine>shorts005.jpg</immagine>
+			<immagine>shorts006.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00069">
+		<nome>Grease</nome>
+		<materiale>Jeans</materiale>
+		<tipologia>Shorts</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="0">35.00</prezzo>
+		<descrizione>Classici shorts in jeans molto comodi e alla moda</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Blu</colore>
+			<colore>Nero</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>shorts007.jpg</immagine>
+			<immagine>shorts008.jpg</immagine>
+			<immagine>shorts009.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00070">
+		<nome>Jadis</nome>
+		<materiale>Pelle</materiale>
+		<tipologia>Giacca</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="0">80.00</prezzo>
+		<descrizione>Giacca in pelle con risvolto sul collo in finto pelo</descrizione>
+		<taglieDisponibili>
+			<taglia>XS</taglia>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Blu</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>giacca019.jpg</immagine>
+			<immagine>giacca020.jpg</immagine>
+			<immagine>giacca021.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00071">
+		<nome>Oasis</nome>
+		<materiale>Pelle</materiale>
+		<tipologia>Giacca</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="10">90.00</prezzo>
+		<descrizione>Giacca in pelle molto leggera con taglio vivo</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Grigio</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>giacca022.jpg</immagine>
+			<immagine>giacca023.jpg</immagine>
+			<immagine>giacca024.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00072">
+		<nome>Sense</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Giacca</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="20">70.00</prezzo>
+		<descrizione>Elegante giacca da completo sfiancata e con chiusura a singolo bottone</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+			<taglia>XL</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Blu</colore>
+			<colore>Nero</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>giacca025.jpg</immagine>
+			<immagine>giacca026.jpg</immagine>
+			<immagine>giacca027.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00073">
+		<nome>Jaxson</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Giacca</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="0">55.00</prezzo>
+		<descrizione>Lunga giacca in cotone poco formale, adatta per tutte le occasioni</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Grigio</colore>
+			<colore>Blu</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>giacca028.jpg</immagine>
+			<immagine>giacca029.jpg</immagine>
+			<immagine>giacca030.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00074">
+		<nome>Bannol</nome>
+		<materiale>Lino</materiale>
+		<tipologia>Giacca</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="0">60.00</prezzo>
+		<descrizione>Giacca elegante in lino e con chiusura a singolo bottone</descrizione>
+		<taglieDisponibili>
+			<taglia>XS</taglia>
+			<taglia>S</taglia>
+			<taglia>L</taglia>
+			<taglia>XL</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Blu</colore>
+			<colore>Bianco</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>giacca031.jpg</immagine>
+			<immagine>giacca032.jpg</immagine>
+			<immagine>giacca033.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00075">
+		<nome>Fridge</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>Vestito</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="0">60.00</prezzo>
+		<descrizione>Vestito da sera con motivo ricamato, su spalle e schiena il vestito risulta trasparente</descrizione>
+		<taglieDisponibili>
+			<taglia>XS</taglia>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Grigio</colore>
+			<colore>Blu</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>vestito001.jpg</immagine>
+			<immagine>vestito002.jpg</immagine>
+			<immagine>vestito003.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00076">
+		<nome>Unique</nome>
+		<materiale>Seta</materiale>
+		<tipologia>Vestito</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="0">95.00</prezzo>
+		<descrizione>Elegante vestito adatto per le occasioni pi&amp;ugrave; importanti e mondane</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Blu</colore>
+			<colore>Rosso</colore>
+			<colore>Bianco</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>vestito004.jpg</immagine>
+			<immagine>vestito005.jpg</immagine>
+			<immagine>vestito006.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00077">
+		<nome>Lyric</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Vestito</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="0">79.00</prezzo>
+		<descrizione>Abito da sera in leggero cotone, adatto nella stagione primaverile</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Blu</colore>
+			<colore>Viola</colore>
+			<colore>Rosso</colore>
+			<colore>Nero</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>vestito007.jpg</immagine>
+			<immagine>vestito008.jpg</immagine>
+			<immagine>vestito009.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00078">
+		<nome>Glam</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Vestito</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="0">59.00</prezzo>
+		<descrizione>Vestito in puro cotone dal motivo a righe orizzontali</descrizione>
+		<taglieDisponibili>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+			<taglia>XL</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Grigio</colore>
+			<colore>Nero</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>vestito010.jpg</immagine>
+			<immagine>vestito011.jpg</immagine>
+			<immagine>vestito012.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00079">
+		<nome>Fringe</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Vestito</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="10">105.00</prezzo>
+		<descrizione>Lungo abito da sera molto elegante, con fascia nera in vita</descrizione>
+		<taglieDisponibili>
+			<taglia>XS</taglia>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Rosso</colore>
+			<colore>Blu</colore>
+			<colore>Nero</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>vestito013.jpg</immagine>
+			<immagine>vestito014.jpg</immagine>
+			<immagine>vestito015.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00080">
+		<nome>Lipsy</nome>
+		<materiale>Jeans</materiale>
+		<tipologia>Vestito</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="10">78.00</prezzo>
+		<descrizione>Vestito in jeans privo di maniche dall'aspetto sportivo</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+			<taglia>XL</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Azzurro</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>vestito016.jpg</immagine>
+			<immagine>vestito017.jpg</immagine>
+			<immagine>vestito018.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00081">
+		<nome>Berry</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>Completo</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="0">80.00</prezzo>
+		<descrizione>Completo elegante e dall'ottima qualit&amp;agrave;</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Rosso</colore>
+			<colore>Nero</colore>
+			<colore>Verde</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>completo007.jpg</immagine>
+			<immagine>completo008.jpg</immagine>
+			<immagine>completo009.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00082">
+		<nome>Shaneen</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Completo</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="10">70.00</prezzo>
+		<descrizione>Delizioso completo in cotone con motivo a piccoli quadri</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+			<taglia>XL</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Grigio</colore>
+			<colore>Marrone</colore>
+			<colore>Blu</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>completo010.jpg</immagine>
+			<immagine>completo011.jpg</immagine>
+			<immagine>completo012.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00083">
+		<nome>Young</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Camicia</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="0">40.00</prezzo>
+		<descrizione>Camicia sfiancata con motivo astratto molto carino</descrizione>
+		<taglieDisponibili>
+			<taglia>XS</taglia>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Marrone</colore>
+			<colore>Grigio</colore>
+			<colore>Azzurro</colore>
+			<colore>Viola</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>camicia013.jpg</immagine>
+			<immagine>camicia014.jpg</immagine>
+			<immagine>camicia015.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00084">
+		<nome>Isala</nome>
+		<materiale>Seta</materiale>
+		<tipologia>Camicia</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="15">55.00</prezzo>
+		<descrizione>Elegante camicia di finissima seta con fiocco centrale</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Blu</colore>
+			<colore>Bianco</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>camicia016.jpg</immagine>
+			<immagine>camicia017.jpg</immagine>
+			<immagine>camicia018.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00085">
+		<nome>Yaso</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Camicia</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="0">49.00</prezzo>
+		<descrizione>Semplice camicia lunga con taschino frontale</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Grigio</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>camicia019.jpg</immagine>
+			<immagine>camicia020.jpg</immagine>
+			<immagine>camicia021.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00086">
+		<nome>Waller</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Giubbotto</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="0">80.00</prezzo>
+		<descrizione>Giubbotto in pesante cotone con chiusura a bottoni e cinturino</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+			<taglia>XL</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Grigio</colore>
+			<colore>Nero</colore>
+			<colore>Marrone</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>giubbotto010.jpg</immagine>
+			<immagine>giubbotto011.jpg</immagine>
+			<immagine>giubbotto012.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00087">
+		<nome>Slinky</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>Giubbotto</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="10">95.00</prezzo>
+		<descrizione>Piumino lungo sfiancato ai lati, adatto per le mezze stagioni</descrizione>
+		<taglieDisponibili>
+			<taglia>XS</taglia>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Blu</colore>
+			<colore>Grigio</colore>
+			<colore>Nero</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>giubbotto013.jpg</immagine>
+			<immagine>giubbotto014.jpg</immagine>
+			<immagine>giubbotto015.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00088">
+		<nome>Cayus</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>Giubbotto</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="0">125.00</prezzo>
+		<descrizione>Comodo giubbotto con cappuccio in pelo sintetico, adatto per la stagione invernale</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Marrone</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>giubbotto016.jpg</immagine>
+			<immagine>giubbotto017.jpg</immagine>
+			<immagine>giubbotto018.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00089">
+		<nome>Monet</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>Stivale</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="0">65.00</prezzo>
+		<descrizione>Elegante stivale alto con tacco 8, disponibile solo in colorazioni scure</descrizione>
+		<taglieDisponibili>
+			<taglia>38</taglia>
+			<taglia>39</taglia>
+			<taglia>40</taglia>
+			<taglia>41</taglia>
+			<taglia>41.5</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Blu</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>scarpa016.jpg</immagine>
+			<immagine>scarpa017.jpg</immagine>
+			<immagine>scarpa018.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00090">
+		<nome>Ziegen</nome>
+		<materiale>Pelle</materiale>
+		<tipologia>Stivale</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="0">85.00</prezzo>
+		<descrizione>Stivaletto in pelle molto curato con tacco grosso</descrizione>
+		<taglieDisponibili>
+			<taglia>39</taglia>
+			<taglia>40</taglia>
+			<taglia>41</taglia>
+			<taglia>42</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Blu</colore>
+			<colore>Nero</colore>
+			<colore>Marrone</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>scarpa019.jpg</immagine>
+			<immagine>scarpa020.jpg</immagine>
+			<immagine>scarpa021.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00091">
+		<nome>Snood</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>Scarpa</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="10">90.00</prezzo>
+		<descrizione>Elegante scarpa da sera con tacco 12 e ampio d&amp;eacute;collet&amp;eacute;</descrizione>
+		<taglieDisponibili>
+			<taglia>38</taglia>
+			<taglia>39</taglia>
+			<taglia>40</taglia>
+			<taglia>41</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Grigio</colore>
+			<colore>Rosso</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>scarpa022.jpg</immagine>
+			<immagine>scarpa023.jpg</immagine>
+			<immagine>scarpa024.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00092">
+		<nome>Bailey</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>Scarpa</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="0">120.00</prezzo>
+		<descrizione>Stivaletto con rivestimento interno in morbido pelo</descrizione>
+		<taglieDisponibili>
+			<taglia>38</taglia>
+			<taglia>39</taglia>
+			<taglia>40</taglia>
+			<taglia>41</taglia>
+			<taglia>42</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Grigio</colore>
+			<colore>Marrone</colore>
+			<colore>Blu</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>scarpa025.jpg</immagine>
+			<immagine>scarpa026.jpg</immagine>
+			<immagine>scarpa027.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00093">
+		<nome>Skind</nome>
+		<materiale>Pelle</materiale>
+		<tipologia>Cintura</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="0">32.00</prezzo>
+		<descrizione>Deliziosa cintura in colorazione madre perla con motivo squamato</descrizione>
+		<immaginiProdotto>
+			<immagine>cintura007.jpg</immagine>
+			<immagine>cintura008.jpg</immagine>
+			<immagine>cintura009.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00094">
+		<nome>Liebe</nome>
+		<materiale>Pelle</materiale>
+		<tipologia>Cintura</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="0">40.00</prezzo>
+		<descrizione>Classica cintura nera abbastanza sottile</descrizione>
+		<immaginiProdotto>
+			<immagine>cintura010.jpg</immagine>
+			<immagine>cintura011.jpg</immagine>
+			<immagine>cintura012.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00095">
+		<nome>Dentwell</nome>
+		<materiale>Pelle</materiale>
+		<tipologia>Cintura</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="10">30.00</prezzo>
+		<descrizione>Cintura con elegante fibbia in acciaio dal motivo ornamentale</descrizione>
+		<immaginiProdotto>
+			<immagine>cintura013.jpg</immagine>
+			<immagine>cintura014.jpg</immagine>
+			<immagine>cintura015.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00096">
+		<nome>Leopard</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>Infradito</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="0">30.00</prezzo>
+		<descrizione>Infradito molto comoda, con suola dal motivo a macchie di leopardo, adatta per mare e piscina</descrizione>
+		<taglieDisponibili>
+			<taglia>38</taglia>
+			<taglia>39</taglia>
+			<taglia>41</taglia>
+			<taglia>41.5</taglia>
+		</taglieDisponibili>
+		<immaginiProdotto>
+			<immagine>infradito007.jpg</immagine>
+			<immagine>infradito008.jpg</immagine>
+			<immagine>infradito009.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00097">
+		<nome>Sarem</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>Infradito</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="10">40.00</prezzo>
+		<descrizione>Infradito con suola in sughero e chiusura regolabile con piccola fibbia laterale</descrizione>
+		<taglieDisponibili>
+			<taglia>38</taglia>
+			<taglia>39</taglia>
+			<taglia>40</taglia>
+			<taglia>41</taglia>
+			<taglia>42</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>grigio</colore>
+			<colore>Nero</colore>
+			<colore>Blu</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>infradito010.jpg</immagine>
+			<immagine>infradito011.jpg</immagine>
+			<immagine>infradito012.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00098">
+		<nome>Jupiter</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>Cappello</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="0">30.00</prezzo>
+		<descrizione>Elegante cappello con sottile nastrino</descrizione>
+		<coloriDisponibili>
+			<colore>Marrone</colore>
+			<colore>Blu</colore>
+			<colore>Nero</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>cappello013.jpg</immagine>
+			<immagine>cappello014.jpg</immagine>
+			<immagine>cappello015.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00099">
+		<nome>Cleo</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>Cappello</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="0">35.00</prezzo>
+		<descrizione>Cappello in feltro molto carino, con nastro nero in velluto chiuso a fiocco</descrizione>
+		<coloriDisponibili>
+			<colore>Bianco</colore>
+			<colore>Rosso</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>cappello016.jpg</immagine>
+			<immagine>cappello017.jpg</immagine>
+			<immagine>cappello018.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00100">
+		<nome>Viveth</nome>
+		<materiale>Lana</materiale>
+		<tipologia>Cappello</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="10">25.00</prezzo>
+		<descrizione>Comodo cappello in pesante cotone con ricami in rilievo, adatto per la stagione invernale</descrizione>
+		<coloriDisponibili>
+			<colore>Rosso</colore>
+			<colore>Nero</colore>
+			<colore>Grigio</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>cappello019.jpg</immagine>
+			<immagine>cappello020.jpg</immagine>
+			<immagine>cappello021.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00101">
+		<nome>Crucer</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Cappello</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="20">32.50</prezzo>
+		<descrizione>Cappello in cotone disponibile in varie colorazioni in tinta unita</descrizione>
+		<coloriDisponibili>
+			<colore>Verde</colore>
+			<colore>Blu</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>cappello022.jpg</immagine>
+			<immagine>cappello023.jpg</immagine>
+			<immagine>cappello024.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00102">
+		<nome>Flower</nome>
+		<materiale>Acciaio</materiale>
+		<tipologia>Collana</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="0">30.00</prezzo>
+		<descrizione>Collana molto elegante con catenina in acciaio ad anelli, con ciondoli a forma di fiori</descrizione>
+		<immaginiProdotto>
+			<immagine>collana007.jpg</immagine>
+			<immagine>collana008.jpg</immagine>
+			<immagine>collana009.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00103">
+		<nome>Balgy</nome>
+		<materiale>Acciaio</materiale>
+		<tipologia>Collana</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="0">35.00</prezzo>
+		<descrizione>Collana ad ampio giro collo con perle nere e bianche</descrizione>
+		<immaginiProdotto>
+			<immagine>collana010.jpg</immagine>
+			<immagine>collana011.jpg</immagine>
+			<immagine>collana012.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00104">
+		<nome>Catil</nome>
+		<materiale>Argento</materiale>
+		<tipologia>Collana</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="0">50.00</prezzo>
+		<descrizione>Preziosa e raffinata collana con dettagli in argento</descrizione>
+		<immaginiProdotto>
+			<immagine>collana013.jpg</immagine>
+			<immagine>collana014.jpg</immagine>
+			<immagine>collana015.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00105">
+		<nome>Blind</nome>
+		<materiale>Acciaio</materiale>
+		<tipologia>Bracciale</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="0">20.00</prezzo>
+		<descrizione>Bracciale con interno in acciaio in colorazione oro</descrizione>
+		<immaginiProdotto>
+			<immagine>bracciale010.jpg</immagine>
+			<immagine>bracciale011.jpg</immagine>
+			<immagine>bracciale012.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00106">
+		<nome>Craft</nome>
+		<materiale>Acciaio</materiale>
+		<tipologia>Bracciale</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="0">39.00</prezzo>
+		<descrizione>Bracciale completamente in acciaio con pendagli a forma di cuore</descrizione>
+		<immaginiProdotto>
+			<immagine>bracciale013.jpg</immagine>
+			<immagine>bracciale014.jpg</immagine>
+			<immagine>bracciale015.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00107">
+		<nome>Higher</nome>
+		<materiale>Oro</materiale>
+		<tipologia>Bracciale</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="15">70.00</prezzo>
+		<descrizione>Bracciale a spirale con buona percentuale di oro nella lega</descrizione>
+		<immaginiProdotto>
+			<immagine>bracciale016.jpg</immagine>
+			<immagine>bracciale017.jpg</immagine>
+			<immagine>bracciale018.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00108">
+		<nome>Drop</nome>
+		<materiale>Acciaio</materiale>
+		<tipologia>Orecchini</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="10">55.00</prezzo>
+		<descrizione>Delicati orecchini a goccia con piccoli diamanti</descrizione>
+		<immaginiProdotto>
+			<immagine>orecchini001.jpg</immagine>
+			<immagine>orecchini002.jpg</immagine>
+			<immagine>orecchini003.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00109">
+		<nome>Sky</nome>
+		<materiale>Argento</materiale>
+		<tipologia>Orecchini</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="0">60.00</prezzo>
+		<descrizione>Orecchini con grosso punto luce ricoperto di piccoli diamanti</descrizione>
+		<immaginiProdotto>
+			<immagine>orecchini004.jpg</immagine>
+			<immagine>orecchini005.jpg</immagine>
+			<immagine>orecchini006.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00110">
+		<nome>Corey</nome>
+		<materiale>Acciaio</materiale>
+		<tipologia>Orecchini</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="0">25.00</prezzo>
+		<descrizione>Orecchini con lungo pendaglio dalla classica forma a goccia</descrizione>
+		<immaginiProdotto>
+			<immagine>orecchini007.jpg</immagine>
+			<immagine>orecchini008.jpg</immagine>
+			<immagine>orecchini009.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00111">
+		<nome>Travel</nome>
+		<materiale>Pelle</materiale>
+		<tipologia>Borsa</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="10">180.00</prezzo>
+		<descrizione>Borsa di marca e dall'ottima qualit&amp;agrave;</descrizione>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Grigio</colore>
+			<colore>Blu</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>borsa001.jpg</immagine>
+			<immagine>borsa002.jpg</immagine>
+			<immagine>borsa003.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00112">
+		<nome>Poppy</nome>
+		<materiale>Pelle</materiale>
+		<tipologia>Borsa</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="0">75.00</prezzo>
+		<descrizione>Borsa con manici e tracolla in pelle</descrizione>
+		<coloriDisponibili>
+			<colore>Marrone</colore>
+			<colore>Nero</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>borsa004.jpg</immagine>
+			<immagine>borsa005.jpg</immagine>
+			<immagine>borsa006.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00113">
+		<nome>Selma</nome>
+		<materiale>Pelle</materiale>
+		<tipologia>Borsa</tipologia>
+		<categoria>Donna</categoria>
+		<prezzo valuta="euro" sconto="20">120.00</prezzo>
+		<descrizione>Elegante borsa in pelle con manici corti ad anelli</descrizione>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Rosso</colore>
+			<colore>Verde</colore>
+			<colore>Blu</colore>
+			<colore>Marrone</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>borsa007.jpg</immagine>
+			<immagine>borsa008.jpg</immagine>
+			<immagine>borsa009.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00114">
+		<nome>Oshkosh</nome>
+		<materiale>Jeans</materiale>
+		<tipologia>Pantalone</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="15">20.00</prezzo>
+		<descrizione>Ottimo modello di jeans di colore scuro</descrizione>
+		<taglieDisponibili>
+			<taglia>XS</taglia>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Azzurro</colore>
+			<colore>Blu</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>jeans016.jpg</immagine>
+			<immagine>jeans017.jpg</immagine>
+			<immagine>jeans018.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00115">
+		<nome>Sisley</nome>
+		<materiale>Jeans</materiale>
+		<tipologia>Pantalone</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="0">30.00</prezzo>
+		<descrizione>Jeans classico sbiadito sul davanti con particolari tasche sul retro</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Blu</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>jeans019.jpg</immagine>
+			<immagine>jeans020.jpg</immagine>
+			<immagine>jeans021.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00116">
+		<nome>Carters</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Pantalone</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="0">10.00</prezzo>
+		<descrizione>Pantaloni di tuta in cotone ottimi sia per la casa sia per l'esterno</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Blu</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>pant019.jpg</immagine>
+			<immagine>pant020.jpg</immagine>
+			<immagine>pant021.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00117">
+		<nome>Nitjackon</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Pantalone</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="0">18.00</prezzo>
+		<descrizione>Pantaloni di tuta con vivaci dettagli in giallo (laccio e scritte sulla gamba sinistra)</descrizione>
+		<taglieDisponibili>
+			<taglia>XS</taglia>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>pant022.jpg</immagine>
+			<immagine>pant023.jpg</immagine>
+			<immagine>pant024.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00118">
+		<nome>Sheyla</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Pantalone</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="0">40.00</prezzo>
+		<descrizione>Pantaloni a righe con tenera faccia di un orsacchiotto sulla tasca sul retro, perfetti per i 'giovanissimi'</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>XL</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Blu</colore>
+			<colore>Marrone</colore>
+			<colore>Grigio</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>pant025.jpg</immagine>
+			<immagine>pant026.jpg</immagine>
+			<immagine>pant027.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00119">
+		<nome>Hunternavy</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Maglione</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="0">80.00</prezzo>
+		<descrizione>Polo in cotone molto elegante con dettaglio in rosso</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Rosso</colore>
+			<colore>Blu</colore>
+			<colore>Verde</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>maglione022.jpg</immagine>
+			<immagine>maglione023.jpg</immagine>
+			<immagine>maglione024.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00120">
+		<nome>Nitnick</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Maglione</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="15">30.00</prezzo>
+		<descrizione>Polo in cotone con sfumatura dal basso verso l'alto che va da un blu profondo al bianco</descrizione>
+		<taglieDisponibili>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Bianco</colore>
+			<colore>Blu</colore>
+			<colore>Verde</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>maglione025.jpg</immagine>
+			<immagine>maglione026.jpg</immagine>
+			<immagine>maglione027.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00121">
+		<nome>Pink</nome>
+		<materiale>Lana</materiale>
+		<tipologia>Maglione</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="0">26.00</prezzo>
+		<descrizione>Maglione di lana rosa con cuore in argento sia sul davanti che sui gomiti, le 'signorine' lo ameranno</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+			<taglia>XL</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Viola</colore>
+			<colore>Rosa</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>maglione028.jpg</immagine>
+			<immagine>maglione029.jpg</immagine>
+			<immagine>maglione030.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00122">
+		<nome>Graumeliert</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Maglione</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="10">33.00</prezzo>
+		<descrizione>Maglione di cotone a taglio lungo con dettagli a forma di stella sulla parte bassa</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Rosso</colore>
+			<colore>Blu</colore>
+			<colore>Grigio</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>maglione031.jpg</immagine>
+			<immagine>maglione032.jpg</immagine>
+			<immagine>maglione033.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00123">
+		<nome>Vansack</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Felpa</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="0">55.00</prezzo>
+		<descrizione>Felpa scura di cotone con cappuccio e scritta a motivo floreale</descrizione>
+		<taglieDisponibili>
+			<taglia>XS</taglia>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Grigio</colore>
+			<colore>Verde</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>felpa019.jpg</immagine>
+			<immagine>felpa020.jpg</immagine>
+			<immagine>felpa021.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00124">
+		<nome>Stanley</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Felpa</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="0">36.00</prezzo>
+		<descrizione>Felpa di cotone con stampa a tema Lego Star Wars, per veri appassionati</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Bianco</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>felpa022.jpg</immagine>
+			<immagine>felpa023.jpg</immagine>
+			<immagine>felpa024.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00125">
+		<nome>Nitnapo</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Felpa</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="0">26.00</prezzo>
+		<descrizione>Felpa di cotone, molto leggera, con disegni di scheletri di dinosauri, per chi ama davvero l'avventura!</descrizione>
+		<taglieDisponibili>
+			<taglia>XS</taglia>
+			<taglia>L</taglia>
+			<taglia>XL</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Blu</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>felpa025.jpg</immagine>
+			<immagine>felpa026.jpg</immagine>
+			<immagine>felpa027.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00126">
+		<nome>Rebuilt</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>T-Shirt</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="35">15.00</prezzo>
+		<descrizione>T-shirt bianca, molto semplice, con logo e scritte in rosso</descrizione>
+		<taglieDisponibili>
+			<taglia>XS</taglia>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Bianco</colore>
+			<colore>Azzurro</colore>
+			<colore>Rosso</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>tshirt022.jpg</immagine>
+			<immagine>tshirt023.jpg</immagine>
+			<immagine>tshirt024.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00127">
+		<nome>Heather</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>T-Shirt</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="0">20.00</prezzo>
+		<descrizione>T-shirt in sintetico grigia, ottima per qualsiasi occasione</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Blu</colore>
+			<colore>Grigio</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>tshirt025.jpg</immagine>
+			<immagine>tshirt026.jpg</immagine>
+			<immagine>tshirt027.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00128">
+		<nome>Multicolor</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>T-Shirt</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="15">14.00</prezzo>
+		<descrizione>T-shirt corta in cotone per 'lei', con sfumature di blu e rosa</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Bianco</colore>
+			<colore>Rosso</colore>
+			<colore>Rosa</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>tshirt028.jpg</immagine>
+			<immagine>tshirt029.jpg</immagine>
+			<immagine>tshirt030.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00129">
+		<nome>Nitaisha</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Gonna</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="0">23.00</prezzo>
+		<descrizione>Gonna nera in cotone elasticizzata con doppia tasca laterale</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Marrone</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>gonna007.jpg</immagine>
+			<immagine>gonna008.jpg</immagine>
+			<immagine>gonna009.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00130">
+		<nome>Darkwash</nome>
+		<materiale>Jeans</materiale>
+		<tipologia>Gonna</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="0">45.00</prezzo>
+		<descrizione>Gonna in jeans perfetta per qualsiasi occasione</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Blu</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>gonna010.jpg</immagine>
+			<immagine>gonna011.jpg</immagine>
+			<immagine>gonna012.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00131">
+		<nome>Sanibel</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Shorts</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="0">55.00</prezzo>
+		<descrizione>Shorts in cotone a strisce orizzontali, molto comodi e sportivi</descrizione>
+		<taglieDisponibili>
+			<taglia>XS</taglia>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Bianco</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>shorts010.jpg</immagine>
+			<immagine>shorts011.jpg</immagine>
+			<immagine>shorts012.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00132">
+		<nome>Penrith</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>Shorts</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="30">20.00</prezzo>
+		<descrizione>Shorts in sintetico monocolore molto semplici e ad un prezzo stracciato!</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Blu</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>shorts013.jpg</immagine>
+			<immagine>shorts014.jpg</immagine>
+			<immagine>shorts015.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00133">
+		<nome>Performance</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>Shorts</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="0">26.00</prezzo>
+		<descrizione>Shorts in sintetico con motivo a quadri, sportivi e molto estivi</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Verde</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>shorts016.jpg</immagine>
+			<immagine>shorts017.jpg</immagine>
+			<immagine>shorts018.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00134">
+		<nome>Skidoo</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>Giacca</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="0">240.00</prezzo>
+		<descrizione>Giacca invernale con tascone frontale, disponibile in colori molto vivaci</descrizione>
+		<taglieDisponibili>
+			<taglia>XS</taglia>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Blu</colore>
+			<colore>Verde</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>giacca034.jpg</immagine>
+			<immagine>giacca035.jpg</immagine>
+			<immagine>giacca036.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00135">
+		<nome>Mittlegrau</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Giacca</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="25">22.00</prezzo>
+		<descrizione>Giacca in cotone in stile classico, leggera ed elegante, per chi non vuole passare inosservato!</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Grigio</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>giacca037.jpg</immagine>
+			<immagine>giacca038.jpg</immagine>
+			<immagine>giacca039.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00136">
+		<nome>Rest</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>Giacca</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="20">70.00</prezzo>
+		<descrizione>Per le pi&amp;ugrave; piccine, giubbotto imbottito con cappuccio, perfetto per la stagione invernale</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+			<taglia>XL</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Blu</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>giacca040.jpg</immagine>
+			<immagine>giacca041.jpg</immagine>
+			<immagine>giacca042.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00137">
+		<nome>Leonardo</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Giacca</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="0">55.00</prezzo>
+		<descrizione>Giacca di cotone molto originale a motivo leggermente striato</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Blu</colore>
+			<colore>Grigio</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>giacca043.jpg</immagine>
+			<immagine>giacca044.jpg</immagine>
+			<immagine>giacca045.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00138">
+		<nome>Nadine</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Giacca</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="20">60.00</prezzo>
+		<descrizione>Giacca in cotone con cuciture a taglio vivo con motivo che ricorda un cielo stellato</descrizione>
+		<taglieDisponibili>
+			<taglia>XS</taglia>
+			<taglia>S</taglia>
+			<taglia>L</taglia>
+			<taglia>XL</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Bianco</colore>
+			<colore>Blu</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>giacca046.jpg</immagine>
+			<immagine>giacca047.jpg</immagine>
+			<immagine>giacca048.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00139">
+		<nome>Yaunde</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Vestito</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="31">49.00</prezzo>
+		<descrizione>Vestito in cotone molto originale con dettagli floreali e geometrici</descrizione>
+		<taglieDisponibili>
+			<taglia>XS</taglia>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Blu</colore>
+			<colore>Rosa</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>vestito019.jpg</immagine>
+			<immagine>vestito020.jpg</immagine>
+			<immagine>vestito021.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00140">
+		<nome>Madeline</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>Vestito</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="21">27.00</prezzo>
+		<descrizione>Vestito in materiale sintetico che alterna l'azzurro, il blu e il bianco con fiocco ad altezza bacino</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Bianco</colore>
+			<colore>Rosso</colore>
+			<colore>Blu</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>vestito022.jpg</immagine>
+			<immagine>vestito023.jpg</immagine>
+			<immagine>vestito024.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00141">
+		<nome>Nitpidot</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>Vestito</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="0">79.00</prezzo>
+		<descrizione>Vestito scuro con motivo a pois colorato, vivace ma allo stesso tempo raffinato</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Rosso</colore>
+			<colore>Blu</colore>
+			<colore>Viola</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>vestito025.jpg</immagine>
+			<immagine>vestito026.jpg</immagine>
+			<immagine>vestito027.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00142">
+		<nome>Eden</nome>
+		<materiale>Seta</materiale>
+		<tipologia>Vestito</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="15">85.00</prezzo>
+		<descrizione>Vestito bianco in seta molto raffinato, con sfumature dorate verso il basso</descrizione>
+		<taglieDisponibili>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+			<taglia>XL</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Bianco</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>vestito028.jpg</immagine>
+			<immagine>vestito029.jpg</immagine>
+			<immagine>vestito030.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00143">
+		<nome>Denim</nome>
+		<materiale>Jeans</materiale>
+		<tipologia>Vestito</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="10">27.00</prezzo>
+		<descrizione>Vestitino in jeans con bretelle e gonna con motivo a pois</descrizione>
+		<taglieDisponibili>
+			<taglia>XS</taglia>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Blu</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>vestito031.jpg</immagine>
+			<immagine>vestito032.jpg</immagine>
+			<immagine>vestito033.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00144">
+		<nome>Youngver</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Vestito</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="0">280.00</prezzo>
+		<descrizione>Vestito nero con motivo geometrico di colore fucsia, per chi cerca il massimo dell'eleganza e originalit&amp;agrave;</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+			<taglia>XL</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Rosa</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>vestito034.jpg</immagine>
+			<immagine>vestito035.jpg</immagine>
+			<immagine>vestito036.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00145">
+		<nome>Truego</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Camicia</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="0">25.00</prezzo>
+		<descrizione>Camicia di cotone a quadri, che alterna bianco, blu e blu a strisce</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Verde</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>camicia022.jpg</immagine>
+			<immagine>camicia023.jpg</immagine>
+			<immagine>camicia024.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00146">
+		<nome>Sawyer</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Camicia</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="0">27.00</prezzo>
+		<descrizione>Camicia di cotone nera che alterna stelle bianche di due dimensioni diverse</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+			<taglia>XL</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Blu</colore>
+			<colore>Marrone</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>camicia025.jpg</immagine>
+			<immagine>camicia026.jpg</immagine>
+			<immagine>camicia027.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00147">
+		<nome>Custom</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Camicia</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="0">55.00</prezzo>
+		<descrizione>Camicia bianca di cotone, sfiancata, ottima per tutte le occasioni</descrizione>
+		<taglieDisponibili>
+			<taglia>XS</taglia>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Bianco</colore>
+			<colore>Azzurro</colore>
+			<colore>Verde</colore>
+			<colore>Viola</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>camicia029.jpg</immagine>
+			<immagine>camicia028.jpg</immagine>
+			<immagine>camicia030.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00148">
+		<nome>Blake</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Camicia</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="15">55.00</prezzo>
+		<descrizione>Camicia di cotone molto semplice, a taglio dritto</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Bianco</colore>
+			<colore>Blu</colore>
+			<colore>Verde</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>camicia031.jpg</immagine>
+			<immagine>camicia032.jpg</immagine>
+			<immagine>camicia033.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00149">
+		<nome>Psilas</nome>
+		<materiale>Jeans</materiale>
+		<tipologia>Camicia</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="15">40.00</prezzo>
+		<descrizione>Camicia in jeans molto accattivante, con bottoni a clip</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Blu</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>camicia034.jpg</immagine>
+			<immagine>camicia035.jpg</immagine>
+			<immagine>camicia036.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00150">
+		<nome>Rocky</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>Giubbotto</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="0">145.00</prezzo>
+		<descrizione>Giubbotto imbottito con simil-pelo interno al cappuccio, perfetto per le stagioni pi&amp;ugrave; fredde</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+			<taglia>XL</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Blu</colore>
+			<colore>Marrone</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>giubbotto019.jpg</immagine>
+			<immagine>giubbotto020.jpg</immagine>
+			<immagine>giubbotto021.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00151">
+		<nome>Indigo</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>Giubbotto</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="0">180.00</prezzo>
+		<descrizione>Giubbotto scuro in sintetico con cappuccio e chiusura con alamari</descrizione>
+		<taglieDisponibili>
+			<taglia>XS</taglia>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Blu</colore>
+			<colore>Grigio</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>giubbotto022.jpg</immagine>
+			<immagine>giubbotto023.jpg</immagine>
+			<immagine>giubbotto024.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00152">
+		<nome>Awning</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>Giubbotto</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="0">130.00</prezzo>
+		<descrizione>Giubbotto invernale molto pesante, disponibile in colori vivaci</descrizione>
+		<taglieDisponibili>
+			<taglia>XS</taglia>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Blu</colore>
+			<colore>Grigio</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>giubbotto025.jpg</immagine>
+			<immagine>giubbotto026.jpg</immagine>
+			<immagine>giubbotto027.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00153">
+		<nome>Stan Smith</nome>
+		<materiale>Pelle</materiale>
+		<tipologia>Scarpa</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="0">55.00</prezzo>
+		<descrizione>Scarpa da passeggio classica, rigorosamente di colore bianco e in pelle</descrizione>
+		<taglieDisponibili>
+			<taglia>38</taglia>
+			<taglia>38.5</taglia>
+			<taglia>39</taglia>
+			<taglia>40</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Bianco</colore>
+			<colore>Blu</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>scarpa028.jpg</immagine>
+			<immagine>scarpa029.jpg</immagine>
+			<immagine>scarpa030.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00154">
+		<nome>Roshe</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>Scarpa</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="10">65.00</prezzo>
+		<descrizione>Scarpa sportiva con suola alta e mollegiata, ottima anche per la corsa</descrizione>
+		<taglieDisponibili>
+			<taglia>34</taglia>
+			<taglia>35</taglia>
+			<taglia>36</taglia>
+			<taglia>37</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Blu</colore>
+			<colore>Marrone</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>scarpa031.jpg</immagine>
+			<immagine>scarpa032.jpg</immagine>
+			<immagine>scarpa033.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00155">
+		<nome>Flux</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>Scarpa</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="0">50.00</prezzo>
+		<descrizione>Scarpe sportive con colori vivaci e suola alta e rialzata, ottime da passeggio</descrizione>
+		<taglieDisponibili>
+			<taglia>33</taglia>
+			<taglia>35.5</taglia>
+			<taglia>36</taglia>
+			<taglia>37</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Rosa</colore>
+			<colore>Grigio</colore>
+			<colore>Rosso</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>scarpa034.jpg</immagine>
+			<immagine>scarpa035.jpg</immagine>
+			<immagine>scarpa036.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00156">
+		<nome>Redwood</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>Scarpa</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="0">170.00</prezzo>
+		<descrizione>Stivale in sintetico, completamente imbottito per mantere al massimo il calore nelle stagioni fredde</descrizione>
+		<taglieDisponibili>
+			<taglia>32</taglia>
+			<taglia>34</taglia>
+			<taglia>35</taglia>
+			<taglia>36</taglia>
+			<taglia>37</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Marrone</colore>
+			<colore>Blu</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>scarpa037.jpg</immagine>
+			<immagine>scarpa038.jpg</immagine>
+			<immagine>scarpa039.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00157">
+		<nome>Denton</nome>
+		<materiale>Pelle</materiale>
+		<tipologia>Cintura</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="0">34.00</prezzo>
+		<descrizione>Cintura di pelle classica che si adatta ad ogni evenienza</descrizione>
+		<coloriDisponibili>
+			<colore>Blu</colore>
+			<colore>Marrone</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>cintura016.jpg</immagine>
+			<immagine>cintura017.jpg</immagine>
+			<immagine>cintura018.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00158">
+		<nome>Conductor</nome>
+		<materiale>Pelle</materiale>
+		<tipologia>Cintura</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="0">20.00</prezzo>
+		<descrizione>Cintura molto sportiva, ottima se abbinata ad un paio di jeans</descrizione>
+		<immaginiProdotto>
+			<immagine>cintura019.jpg</immagine>
+			<immagine>cintura020.jpg</immagine>
+			<immagine>cintura021.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00159">
+		<nome>Stud</nome>
+		<materiale>Pelle</materiale>
+		<tipologia>Cintura</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="10">40.00</prezzo>
+		<descrizione>Cintura in pelle con particolari anelli in acciaio che la rendono unica</descrizione>
+		<immaginiProdotto>
+			<immagine>cintura022.jpg</immagine>
+			<immagine>cintura023.jpg</immagine>
+			<immagine>cintura024.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00160">
+		<nome>Gizeh</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>Infradito</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="0">55.00</prezzo>
+		<descrizione>Infradito molto comodo perfetto per la stagione estiva</descrizione>
+		<taglieDisponibili>
+			<taglia>33</taglia>
+			<taglia>34</taglia>
+			<taglia>35</taglia>
+			<taglia>36.5</taglia>
+		</taglieDisponibili>
+		<immaginiProdotto>
+			<immagine>infradito013.jpg</immagine>
+			<immagine>infradito014.jpg</immagine>
+			<immagine>infradito015.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00161">
+		<nome>Molokai</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>Infradito</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="10">15.00</prezzo>
+		<descrizione>Infradito da mare in materiale sintetico, disponibile in colori 'estivi'</descrizione>
+		<taglieDisponibili>
+			<taglia>34</taglia>
+			<taglia>35</taglia>
+			<taglia>35.5</taglia>
+			<taglia>36</taglia>
+			<taglia>37</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Verde</colore>
+			<colore>Nero</colore>
+			<colore>Blu</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>infradito016.jpg</immagine>
+			<immagine>infradito017.jpg</immagine>
+			<immagine>infradito018.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00162">
+		<nome>Colder</nome>
+		<materiale>Lana</materiale>
+		<tipologia>Cappello</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="15">28.00</prezzo>
+		<descrizione>Cappelo di lana con motivo a stelle di media dimensione, molto alla moda</descrizione>
+		<coloriDisponibili>
+			<colore>Blu</colore>
+			<colore>Grigio</colore>
+			<colore>Nero</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>cappello025.jpg</immagine>
+			<immagine>cappello026.jpg</immagine>
+			<immagine>cappello027.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00163">
+		<nome>Lucas</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>Cappello</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="35">25.00</prezzo>
+		<descrizione>Cappello per i pi&amp;ugrave; piccolini che riproduce la testa di un orsacchiotto, comprese le orecchie</descrizione>
+		<coloriDisponibili>
+			<colore>Marrone</colore>
+			<colore>Rosso</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>cappello028.jpg</immagine>
+			<immagine>cappello029.jpg</immagine>
+			<immagine>cappello030.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00164">
+		<nome>Jay</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>Cappello</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="0">44.00</prezzo>
+		<descrizione>Cappello con pon-pon monocolore e con disegnata una sagoma di un orso stilizzato</descrizione>
+		<coloriDisponibili>
+			<colore>Verde</colore>
+			<colore>Rosso</colore>
+			<colore>Grigio</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>cappello031.jpg</immagine>
+			<immagine>cappello032.jpg</immagine>
+			<immagine>cappello033.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00165">
+		<nome>Star</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>Cappello</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="0">65.50</prezzo>
+		<descrizione>Cappello con pon-pon di cotone composto da tre strisce orizzontali di colori differenti</descrizione>
+		<coloriDisponibili>
+			<colore>Verde</colore>
+			<colore>Blu</colore>
+			<colore>Bianco</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>cappello034.jpg</immagine>
+			<immagine>cappello035.jpg</immagine>
+			<immagine>cappello036.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00166">
+		<nome>Minnie</nome>
+		<materiale>Sintetico</materiale>
+		<tipologia>Borsa</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="10">15.00</prezzo>
+		<descrizione>Borsa rosa a tracolla con immagine della celebre e simpatica Minnie</descrizione>
+		<coloriDisponibili>
+			<colore>Rosa</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>borsa010.jpg</immagine>
+			<immagine>borsa011.jpg</immagine>
+			<immagine>borsa012.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00167">
+		<nome>Delegate</nome>
+		<materiale>Pelle</materiale>
+		<tipologia>Borsa</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="0">55.00</prezzo>
+		<descrizione>Borsa a tracolla in stoffa con chiusura a ganci ottima per i piccoli studenti</descrizione>
+		<coloriDisponibili>
+			<colore>Grigio</colore>
+			<colore>Nero</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>borsa013.jpg</immagine>
+			<immagine>borsa014.jpg</immagine>
+			<immagine>borsa015.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00168">
+		<nome>Carlota</nome>
+		<materiale>Pelle</materiale>
+		<tipologia>Borsa</tipologia>
+		<categoria>Bambino</categoria>
+		<prezzo valuta="euro" sconto="15">40.00</prezzo>
+		<descrizione>Borsa a tracolla in pelle con motivo stellato sul davanti, disponibile solo in colorazioni accese</descrizione>
+		<coloriDisponibili>
+			<colore>Multicolor</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>borsa016.jpg</immagine>
+			<immagine>borsa017.jpg</immagine>
+			<immagine>borsa018.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+	<prodotto codice="00169">
+		<nome>Francesco</nome>
+		<materiale>Cotone</materiale>
+		<tipologia>T-Shirt</tipologia>
+		<categoria>Uomo</categoria>
+		<prezzo valuta="euro" sconto="90">5.00</prezzo>
+		<descrizione>&amp;egrave;&amp;igrave;&amp;ograve;&amp;agrave;&amp;ugrave;</descrizione>
+		<taglieDisponibili>
+			<taglia>S</taglia>
+			<taglia>M</taglia>
+			<taglia>L</taglia>
+		</taglieDisponibili>
+		<coloriDisponibili>
+			<colore>Nero</colore>
+			<colore>Bianco</colore>
+			<colore>Azzurro</colore>
+		</coloriDisponibili>
+		<immaginiProdotto>
+			<immagine>4001_102_5.jpg</immagine>
+			<immagine>Blue_Tshirt.jpg</immagine>
+			<immagine>gildan-ultracotton-tshirt-white-extralarge.jpg</immagine>
+		</immaginiProdotto>
+	</prodotto>
+</so:catalogo>

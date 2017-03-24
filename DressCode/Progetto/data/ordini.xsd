@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns="http://informatica.math.unipd.it"
+    targetNamespace="http://informatica.math.unipd.it">
+    <xs:element name="ordiniEffettuati" type="order_list" />
+	<xs:complexType name="order_list">
+		<xs:sequence>
+	        <xs:element name="ordine" type="order_info" minOccurs="0" maxOccurs="unbounded" />
+	    </xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="order_info">
+	   	<xs:sequence>
+			<xs:element name="email" type="xs:string" />
+			<xs:element name="data" type="xs:date" />
+			<xs:element name="prodottiAcquistati" type="products_list" />
+		</xs:sequence>
+		<xs:attribute name="codice" type="xs:string" use="required" />
+		<xs:attribute name="spedizione" type="xs:string" use="required" />
+	</xs:complexType>
+	<xs:complexType name="products_list">
+		<xs:sequence>
+			<xs:element name="prodotto" type="prod_info" minOccurs="1" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="prod_info">
+		<xs:sequence>
+			<xs:element name="codice" type="xs:string" />
+			<xs:element name="nome" type="xs:string" />
+			<xs:element name="prezzo" type="xs:decimal" />
+			<xs:element name="taglia" type="xs:string" />
+			<xs:element name="colore" type="xs:string" />
+			<xs:element name="quantità" type="xs:positiveInteger" />
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

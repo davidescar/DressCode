@@ -1,0 +1,519 @@
+@import url("base.css");
+
+/* =========== IMMAGINI ========== */
+
+#images_title {
+	display: none;
+}
+
+#images_list {
+	float: left;
+	max-width: 600px;
+	padding: 0;
+	padding-right: 0%;
+	margin: 0 0 3em 3em;
+	list-style-type: none;
+	border-right: 2px solid gray;
+}
+
+#images_list li {
+	float: left;
+}
+
+#b_image img {
+	min-width: 28em;
+	min-height: 35em;
+}
+
+#images_list li img {
+	width: 15em;
+	height: 20em;
+	margin: 1em;
+	margin-left: 2em;
+}
+
+#images_list li.s_images {
+	border-top: 2px solid gray;
+	cursor: pointer;
+}
+
+#notaClickImm {
+	float: left;
+	padding: 0;
+	padding-right: 0%;
+	margin: 0 0 3em 3em;
+}
+
+/* =========== INFO ========== */
+
+#info_list {
+	float: right;
+	width: 35%;
+	margin: 0 5% 2em 0;
+	padding-left: 0;
+	list-style-type: none;
+}
+
+/* TITOLO */
+
+#info_title {
+	text-transform: uppercase;
+	font-size: 2em;
+	font-weight: bold;
+	margin-bottom: 1em;
+	padding-bottom: 0.5em;
+	border-bottom: 2px solid gray;
+}
+
+/* PREZZO */
+
+#info_price {
+	font-size: 1.8em;
+	margin-bottom: 1.5em;
+}
+
+#info_disc{
+	color: #b50000;
+	display: block;
+	margin-top: 1em;
+	font-size: 0.8em;
+}
+
+#imgsale{
+	float: right;
+	width: 2.5em;
+	height: 2.5em;
+	position: relative;
+	right: 30%;
+	background: url(../../images/css/sales.png) no-repeat;
+	bottom: 0.3em;
+}
+
+/* AGGIUNGI CARRELLO */
+
+#info_cart{
+	padding-left: 15%;
+	background: url(../../images/css/add_cart.png) no-repeat left;
+}
+
+/* OPERAZIONI ADMIN */
+
+#info_operations p {
+	display: none;
+}
+
+#info_operations ul {
+	position: relative;
+	margin-bottom: 1em;
+	padding: 0.7em;
+}
+
+#info_operations li{
+	list-style-type: none;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin-bottom: 2em;
+	margin-right: 2em;
+	border-bottom: 5px double #2f6a55;
+}
+
+#info_operations li:hover{
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border-top: 5px solid #2f6a55;
+	border-bottom: 3px solid #2f6a55;
+}
+
+#info_operations ul li.modify a{
+	padding: 2.5em;
+	background: url(../../images/css/modify.png) no-repeat left;
+}
+
+#info_operations ul li.delete a{
+	padding: 2.5em;
+	background: url(../../images/css/clear.png) no-repeat left;
+}
+
+#info_operations ul li.prom_off a{
+	padding: 2.5em;
+	background: url(../../images/css/rmv_prom.png) no-repeat left;
+}
+
+/* DETTAGLI */
+
+#info_det {
+	margin-top: 2em;
+	padding-top: 1em;
+	border-top: 1px solid gray;
+}
+
+#info_det span {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#det_list {
+	margin-top: 1.5em;
+	padding-left: 0;
+	list-style-type: none;
+}	
+
+#det_list li {
+	margin: 0.5em 0;
+}
+
+#det_list li label {
+	font-weight: bold;
+	margin-right: 20%;
+}
+
+#det_descr {
+	font-style: italic;
+	padding: 2.5em 0;
+}
+
+#info_code span, #det_descr span {
+	display: none;
+}
+
+#det_mat{
+	padding-top: 1em;
+}
+
+#det_mat span {
+	margin-right: 3.5em;
+	text-transform: capitalize;
+}
+
+
+/* ====== RECENSIONI ======= */
+
+/* TITOLO */
+
+#com_title {
+	clear: both;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 1em 6%;
+	padding-top: 1em;
+	border-top: 2px solid gray;
+}
+
+#com_title span {
+	float: left;
+	width: 2.5em;
+	height: 2em;
+	position: relative;
+	left: 30%;
+	background: url(../../images/css/reviews.png) no-repeat;
+}
+
+/* LISTA */
+
+#com_list {
+	clear: both;
+	margin: 1em;
+	margin-left: 2em;
+	margin-right: 7em;
+}
+
+#com_list li {
+	margin: 2em 0;
+	list-style-type: none;
+}
+
+/* SINGOLA RECENSIONE */
+
+#com_list li dl dt {
+	display: none;
+}
+
+#no_review {
+	text-align: center;
+}
+
+#com_list li dl dd.author {
+	float: left;
+	font-weight: bold;
+	padding: 0 0.5em;
+	padding-right: 1.5em;
+}
+
+#com_list li dl dd.date {
+	width: 20%;
+	color: gray;
+	padding-left: 12em;
+}
+
+#com_list li dl dd.admin_option {
+	float: right;
+	margin-right: 1em;
+	margin-top: -2em;
+	padding: 0.5em;	
+}
+
+#com_list li dl dd.admin_option a {
+	padding: 0.5em 2em;
+	background: url(../../images/css/trash.png) no-repeat left;
+}
+
+#com_list li dl dd.val {
+	float: right;
+	margin-left: 5em;
+	margin-right: 1em;
+	margin-top: -2em;
+	padding: 0.5em 4em;
+}
+
+#com_list li dl dd.val span.star {
+	padding: 1em 0.8em;
+	background: url(../../images/css/valstar.png) no-repeat left;
+}
+
+#com_list li dl dd.comment {
+	padding: 1em;
+	margin-top: 0.5em;
+	font-style: italic;
+	border-top: 1px solid gray;
+	border-bottom: 2px double gray;
+}
+
+/* FORM RECENSIONE */
+
+#form_rec {
+	margin: 1em 20%;
+	text-align: center;
+	border-top: 1px solid gray;
+}
+
+#form_rec ul { list-style-type: none; }
+
+#form_rec fieldset { border: 0; }
+
+.rating{
+	margin-top: 12px;
+}
+
+.rating {
+    overflow: hidden;
+    display: inline-block;
+    font-size: 0;
+    position: relative;
+}
+.rating-input {
+    float: right;
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    margin: 0 0 0 -25px;
+    opacity: 0;
+    background-repeat: no-repeat;
+}
+.rating:hover .rating-star:hover,
+.rating:hover .rating-star:hover ~ .rating-star,
+.rating-input:checked ~ .rating-star {
+    background-position: 0 0;
+    cursor: pointer;
+}
+.rating-star,
+.rating:hover .rating-star {
+    position: relative;
+    float: right;
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: url(../../images/css/star.png) 0 -25px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 481px) and (max-width: 749px){
+		
+		h2.ptitle {
+			clear: both;
+			margin: 2em 20%;
+			margin-top: 5em;
+		}
+	
+		#info_list {
+			float: initial;
+			width: 80%;
+			margin: 0 auto;
+			text-align: center;
+		}
+	
+		#imgsale {
+			right: 15%;
+		}
+	
+		select.pselect {
+			width: 40%;
+		}
+	
+		#info_cart{
+			margin: 0 20%;			
+		}
+	
+		#det_mat {
+				text-align: left;
+				padding-left: 15%;
+		}
+	
+		#det_mat span {
+			margin-right: 40%;
+		}
+	
+		/* immagini */
+	
+		#images_title {
+			display: initial;
+			margin: 2em 30%;
+			text-transform: uppercase;
+		}
+		
+		#images_list {
+			float: initial;
+			margin: 3em 5%;
+		}
+	
+		#images_list li.s_images {
+			margin-left: 25%;
+		}
+		
+		#b_image {
+			margin-left: 20%;
+		}
+	
+		#b_image img {
+			min-width: 20em;
+			min-height: 26em;
+		}
+
+		#images_list li img {
+			width: 15em;
+			height: 20em;
+			margin: 1em;
+			margin-left: 2em;
+		}
+	
+		/* recensioni */
+		
+		#com_title {
+			margin-left: 0;
+			padding-right: 15%;
+		}
+	
+		#com_title span{
+			padding: 1em;
+			
+			margin-right: 25%;
+		}
+		
+		#com_list {
+			margin: 1em 5%;
+			padding: 0;
+		}
+	
+		#com_list dl,#com_list dt,#com_list dd {
+			padding: 0;
+			margin: 0;
+		} 
+
+		#form_rec {
+			margin: 1em 0%;
+			text-align: center;
+			border-top: 1px solid gray;
+		}
+
+		#form_rec fieldset textarea{ width: 90%;}
+	
+}
+
+@media screen and (min-width: 750px) and (max-width: 1100px){
+	
+	#info_cart{
+		padding-left: 5%;
+		margin: 0 25%;			
+	}
+	
+	#images_list {
+		margin: 3em 15%;
+	}
+	
+	h2.ptitle {
+		clear: both;
+		margin: 2em 20%;
+		margin-top: 5em;
+	}
+
+	#info_list {
+		float: initial;
+		width: 80%;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	#imgsale {
+		right: 30%;
+	}
+
+	select.pselect {
+		width: 40%;
+	}
+
+	#info_cart{
+		margin: 0 20%;			
+	}
+
+	#det_mat {
+		text-align: left;
+		padding-left: 15%;
+	}
+
+	#det_mat span {
+		margin-right: 40%;
+	}
+
+	/* immagini */
+
+	#images_title {
+		display: initial;
+		margin: 2em 35%;
+		text-transform: uppercase;
+	}
+	
+	#images_list {
+		float: initial;
+		margin: 3em 15%;
+		padding-left: 10%;
+	}
+	
+	#b_image {
+		margin-left: 20%;
+	}
+
+	#b_image img {
+		min-width: 20em;
+		min-height: 26em;
+	}
+
+	#images_list li img {
+		width: 15em;
+		height: 20em;
+		margin: 1em;
+		margin-left: 2em;
+	}
+
+	/* recensioni */
+	
+	#com_title {
+		margin-left: 0;
+		padding-right: 10%;
+	}
+
+	#com_title span{
+		padding: 0.5em;
+		margin-right: 20%;
+	}
+	
+}

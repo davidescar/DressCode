@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<so:recensioni xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:so="http://informatica.math.unipd.it" xs:schemaLocation="http://informatica.math.unipd.it recensioni.xsd">
+	<rec autore="base@gmail.com" codice="00001">
+		<data>2016-01-10</data>
+		<descrizione>Fantastico jeans, comodissimo! Prezzo conveniente e spedizione in orario: un vero affare!</descrizione>
+		<punteggio>5</punteggio>
+	</rec>
+	<rec autore="prova@gmail.com" codice="00013">
+		<data>2016-01-10</data>
+		<descrizione>Bellissimo completo acquistato a prezzo scontato, ottimo materiale e spedizione efficiente!</descrizione>
+		<punteggio>5</punteggio>
+	</rec>
+	<rec autore="ciao@gmail.com" codice="00019">
+		<data>2016-01-10</data>
+		<descrizione>Maniche leggermente lunghe ma la camicia risulta aderente e traspirante</descrizione>
+		<punteggio>4</punteggio>
+	</rec>
+	<rec autore="buongiorno@gmail.com" codice="00053">
+		<data>2016-01-11</data>
+		<descrizione>Fantastico, perfetto! Appena l'ho visto me ne sono innamorata e l'ho subito comprato: soddisfattissima!</descrizione>
+		<punteggio>5</punteggio>
+	</rec>
+	<rec autore="ciao@gmail.com" codice="00105">
+		<data>2016-01-11</data>
+		<descrizione>Splendido bracciale che ho regalato alla mia ragazza; unica pecca, l'esagerato imballaggio del pacco</descrizione>
+		<punteggio>4</punteggio>
+	</rec>
+	<rec autore="ciao@gmail.com" codice="00109">
+		<data>2016-01-11</data>
+		<descrizione>Dalle foto sembrava meglio: prezzo esagerato!</descrizione>
+		<punteggio>3</punteggio>
+	</rec>
+	<rec autore="buongiorno@gmail.com" codice="00111">
+		<data>2016-01-11</data>
+		<descrizione>La borsa che ho sempre sognato finalmente l'ho acquistata grazie al mega sconto! Spedizione come sempre ottima</descrizione>
+		<punteggio>5</punteggio>
+	</rec>
+	<rec autore="prova@gmail.com" codice="00117">
+		<data>2016-01-12</data>
+		<descrizione>Comodissimi pantaloni felpati comprati per mio figlio; resistenti anche al primo lavaggio!</descrizione>
+		<punteggio>4</punteggio>
+	</rec>
+	<rec autore="base@gmail.com" codice="00129">
+		<data>2016-01-12</data>
+		<descrizione>Gonna di ottima fattura, ideale da regalare alle vostre bambine; spedizioni sempre al top!</descrizione>
+		<punteggio>4</punteggio>
+	</rec>
+	<rec autore="ciao@gmail.com" codice="00001">
+		<data>2016-01-12</data>
+		<descrizione>Articolo in ritardo di consegna e con un leggero difetto di cucitura sulla tasca posteriore</descrizione>
+		<punteggio>2</punteggio>
+	</rec>
+	<rec autore="prova2@prova2.com" codice="00001">
+		<data>2016-01-17</data>
+		<descrizione>prova recensione</descrizione>
+		<punteggio>3</punteggio>
+	</rec>
+	<rec autore="prova2@prova2.com" codice="00002">
+		<data>2016-01-17</data>
+		<descrizione>sdfgsdfgsdfgsdfgsdfg</descrizione>
+		<punteggio>3</punteggio>
+	</rec>
+	<rec autore="prova2@prova2.com" codice="00006">
+		<data>2016-01-17</data>
+		<descrizione>sdfgdsfgsdfgdsfg</descrizione>
+		<punteggio>3</punteggio>
+	</rec>
+	<rec autore="prova2@prova2.com" codice="00012">
+		<data>2016-01-17</data>
+		<descrizione>dsfgdsfgsdfgsdfg</descrizione>
+		<punteggio>3</punteggio>
+	</rec>
+</so:recensioni>

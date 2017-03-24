@@ -1,0 +1,195 @@
+/* titolo scheda */
+#tab_title {
+	margin: 1em 40%; 
+	font-size: 1.4em;	
+	text-transform: uppercase;
+}
+
+/* =========== IMMAGINI ========== */
+
+#images_title {
+	display: none;
+}
+
+#images_list {
+	float: left;
+	max-width: 600px;
+	padding: 0;
+	padding-right: 5%;
+	margin-left: 5%;
+	margin-right: 0;
+	margin-bottom: 3em;
+	list-style-type: none;
+	border-right: 2px solid gray;
+}
+
+#images_list li {
+	float: left;
+}
+
+#b_image img {
+	margin-left: 10%;
+	min-width: 500px;
+	min-height: 420px;
+}
+
+#images_list li img {
+	width: 200px;
+	height: 180px;
+	margin-top: 1em;
+}
+
+#images_list .s_images {
+	border-top: 2px solid gray;
+}
+
+/* =========== INFO ========== */
+
+#info_list {
+	float: right;
+	width: 30%;
+	margin-left: 0;
+	margin-right: 10%;
+	margin-bottom: 2em;
+	padding-left: 0;
+	list-style-type: none;
+}
+
+#info_code {
+	position: relative;
+	top: 35em;
+	left: 45%;
+}
+
+#info_title {
+	text-transform: uppercase;
+	font-size: 2em;
+	font-weight: bold;
+	min-width: 120%;
+	margin-bottom: 1em;
+	padding-bottom: 0.5em;
+	border-bottom: 2px solid gray;
+}
+
+#info_price {
+	font-size: 1.8em;
+	margin-bottom: 3em;
+}
+
+#info_cart {
+	position: relative;
+	bottom: 21em;
+	width: 60%;
+	margin-bottom: 1em;
+	padding: 0.8em;
+	background-color: #3B3B3B;
+}
+
+#info_cart input {
+	color: white;
+	border: 0;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: #3B3B3B;
+}
+
+#info_det {
+	min-width: 120%;
+	margin-top: 2em;
+	padding-top: 1em;
+	border-top: 1px solid gray;
+}
+
+#info_det span {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#det_list {
+	margin-top: 1.5em;
+	padding-left: 0;
+	list-style-type: none;
+}	
+
+#det_list li {
+	margin: 0.5em 0;
+}
+
+#det_list li label {
+	font-weight: bold;
+	margin-right: 20%;
+}
+
+#det_descr {
+	padding: 2.5em 0;
+}
+
+#info_title span,
+#info_price span,
+#det_descr span {
+	display: none;
+}
+
+#det_mat span {
+	margin-right: 12%;
+	text-transform: capitalize;
+}
+
+/* ====== RECENSIONI ======= */
+
+#com_title {
+	clear: both;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 1em 10%;
+	padding-top: 1em;
+	border-top: 1px solid gray;
+}
+
+#com_list {
+	clear: both;
+	margin: 1em 10%;
+	list-style-type: none;
+}
+
+#com_list li {
+	margin: 2em 0;
+}
+
+#com_list li dl dt {
+	display: none;
+}
+
+#com_list li dl dd.author {
+	color: #74C5B7;
+	display: inline;
+	padding: 0 0.5em;
+	padding-right: 1.5em;
+	font-weight: bold;
+	border-right: 1px solid gray;
+}
+
+#com_list li dl dd.date {
+	float: right;
+	position: relative;
+	right: 78%;
+	color: gray;
+}
+
+#com_list li dl dd.val {
+	float: right;
+	position: relative;
+	top: 2.5em;
+	padding-left: 5%;
+	border-left: 2px solid gray;
+}
+
+#com_list li dl dd.comment {
+	padding: 0.5em;
+	margin-top: 0.5em;
+	border: 1px solid gray;
+}
+
+
+
+

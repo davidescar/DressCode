@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns="http://informatica.math.unipd.it"
+    targetNamespace="http://informatica.math.unipd.it">
+    <xs:element name="catalogo" type="catalogo_type" />
+    <xs:complexType name="catalogo_type">
+        <xs:sequence>
+            <xs:element name="prodotto" type="product_type" minOccurs="0" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="product_type">
+        <xs:all>
+            <xs:element name="nome" type="xs:string" />
+            <xs:element name="materiale" type="xs:string" />
+            <xs:element name="tipologia" type="xs:string" />   
+            <xs:element name="categoria" type="xs:string" />
+            <xs:element name="prezzo" type="price_type" />
+            <xs:element name="descrizione" type="xs:string" />            
+            <xs:element name="taglieDisponibili" type="taglie_list_type" minOccurs="0" maxOccurs="1" />
+            <xs:element name="coloriDisponibili" type="colori_list_type" minOccurs="0" maxOccurs="1" />
+            <xs:element name="immaginiProdotto" type="immagini_list_type" />
+        </xs:all>
+        <xs:attribute name="codice" type="xs:string" use="required" />
+    </xs:complexType>
+    <xs:complexType name="taglie_list_type">
+        <xs:sequence>
+            <xs:element name="taglia" type="xs:string" minOccurs="0" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="colori_list_type">
+        <xs:sequence>
+            <xs:element name="colore" type="xs:string" minOccurs="0" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="immagini_list_type">
+        <xs:sequence>
+            <xs:element name="immagine" type="xs:string" minOccurs="0" maxOccurs="3" />
+        </xs:sequence>
+    </xs:complexType>
+	<xs:complexType name="price_type">
+		<xs:simpleContent>
+			<xs:extension base="xs:decimal">
+				<xs:attribute name="valuta" type="xs:string" use="required" />
+                 <xs:attribute name="sconto" type="xs:nonNegativeInteger" use="required" />
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+</xs:schema>

@@ -1,0 +1,23 @@
+@import url(base_m.css);
+
+/*====== LOGIN FORM ==== */
+
+h2.ptitle {
+	text-align: center;
+	background-position: 20%;
+}
+
+#log_form {
+	margin: 2em 0;
+	padding: 0;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+#log_form legend {
+	display: none;
+}
+
+#log_form label {
+	display: block;
+}

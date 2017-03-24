@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<so:utentiRegistrati xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:so="http://informatica.math.unipd.it" xs:schemaLocation="http://informatica.math.unipd.it utenti.xsd">
+	<utente admin="1">
+		<email>admin@gmail.com</email>
+		<password>d033e22ae348aeb5660fc2140aec35850c4da997</password>
+		<nome>Franco</nome>
+		<cognome>Rossi</cognome>
+	</utente>
+	<utente admin="0">
+		<email>base@gmail.com</email>
+		<password>7c4a8d09ca3762af61e59520943dc26494f8941b</password>
+		<nome>Matteo</nome>
+		<cognome>Ferrari</cognome>
+		<indirizzo>via Roma 20</indirizzo>
+		<citta>Padova</citta>
+		<CAP>35100</CAP>
+		<nazione>Italia</nazione>
+		<carta circuito="Master Card">5384630283174620</carta>
+	</utente>
+	<utente admin="0">
+		<email>prova@gmail.com</email>
+		<password>7c4a8d09ca3762af61e59520943dc26494f8941b</password>
+		<nome>Stefano</nome>
+		<cognome>Ricci</cognome>
+		<indirizzo>via Perugia 5</indirizzo>
+		<citta>Venezia</citta>
+		<CAP>30121</CAP>
+		<nazione>Italia</nazione>
+		<carta circuito="American Express">341989216357790</carta>
+	</utente>
+	<utente admin="0">
+		<email>ciao@gmail.com</email>
+		<password>7c4a8d09ca3762af61e59520943dc26494f8941b</password>
+		<nome>Paola</nome>
+		<cognome>Bianchi</cognome>
+		<indirizzo>via Lucca 12</indirizzo>
+		<citta>Milano</citta>
+		<CAP>20150</CAP>
+		<nazione>Italia</nazione>
+		<carta circuito="Visa">4556220999211505</carta>
+	</utente>
+	<utente admin="0">
+		<email>buongiorno@gmail.com</email>
+		<password>7c4a8d09ca3762af61e59520943dc26494f8941b</password>
+		<nome>Marta</nome>
+		<cognome>Draghi</cognome>
+		<indirizzo>via Manzoni 38</indirizzo>
+		<citta>Roma</citta>
+		<CAP>00134</CAP>
+		<nazione>Italia</nazione>
+		<carta circuito="Master Card">5326245720748802</carta>
+	</utente>
+	<utente admin="0">
+		<email>fede@fede.it</email>
+		<password>a6979dc879a84b82499ca8719c46bf4f7ff03b70</password>
+		<nome/>
+		<cognome/>
+		<indirizzo/>
+		<citta/>
+		<CAP/>
+		<nazione/>
+		<carta circuito="null"/>
+	</utente>
+	<utente admin="0">
+		<email>prova@prova.com</email>
+		<password>7c4a8d09ca3762af61e59520943dc26494f8941b</password>
+		<nome>Pippo</nome>
+		<cognome>Lallo</cognome>
+		<indirizzo>dfg</indirizzo>
+		<citta>dfg</citta>
+		<CAP>23423</CAP>
+		<nazione>dfgdfg</nazione>
+		<carta circuito="American Express">3245234523453245</carta>
+	</utente>
+	<utente admin="0">
+		<email>prova2@prova2.com</email>
+		<password>7c4a8d09ca3762af61e59520943dc26494f8941b</password>
+		<nome/>
+		<cognome/>
+		<indirizzo/>
+		<citta/>
+		<CAP/>
+		<nazione/>
+		<carta circuito="null"/>
+	</utente>
+</so:utentiRegistrati>

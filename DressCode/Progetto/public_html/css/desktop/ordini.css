@@ -1,0 +1,72 @@
+
+@import url("base.css");
+
+/* === TITOLO == */
+
+h2.ptitle {
+	margin: 2em 35%;
+	padding: 1em 1em;
+	background: url(../../images/css/order_icon.png) no-repeat left;
+}
+
+/* ==== LISTA ORDINI === */
+
+#orders_list {
+	list-style-type: none;
+	margin: 1em 0;
+} 
+
+#orders_list li {
+	margin-bottom: 7em; 
+}
+
+#orders_list li p.date_ord {
+	padding: 0.5em 2.5em;
+	background: url(../../images/css/date_order.png) no-repeat left;
+}
+
+#orders_list li p.sped_ord {
+	padding: 0.5em 2.5em;
+	background: url(../../images/css/delivery.png) no-repeat left;
+}
+
+#orders_list li p{
+	margin-right: 3em;
+	display: inline;
+}
+
+/* === TABELLE PRODOTTI == */
+
+table.order_table {
+	width: 90%;
+	min-height: 1em; 
+	margin: 1em 5%;
+	text-align: center;
+}
+
+table.order_table th {
+	padding: 0.5em;
+	border-bottom: 2px solid gray;
+}
+
+table.order_table td {
+	padding: 0.5em 2.5em;
+	border-bottom: 1px solid gray;
+}
+
+table.order_table tr td img{
+	width: 60%;
+}
+
+table.order_table td:nth-child(1) {
+	width: 20%;
+}
+
+#orders_list li p.tot_ord{
+	color: white;
+	float: right;
+	padding: 1em;
+	background: #54504D;
+	margin-right: 19%;
+	border-radius: 1em;
+}

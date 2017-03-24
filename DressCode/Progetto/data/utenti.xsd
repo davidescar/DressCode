@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns="http://informatica.math.unipd.it"
+    targetNamespace="http://informatica.math.unipd.it">
+    <xs:element name="utentiRegistrati" type="users_list_type" />
+    <xs:complexType name="users_list_type">
+        <xs:sequence>
+            <xs:element name="utente" type="user_type" minOccurs="0" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="user_type">
+        <xs:all>
+            <xs:element name="email" type="xs:string" use="required" />
+            <xs:element name="password" type="xs:string" use="required" />
+            <xs:element name="nome" type="xs:string" />
+            <xs:element name="cognome" type="xs:string" />
+            <xs:element name="indirizzo" type="xs:string" />
+            <xs:element name="citta" type="xs:string" />
+            <xs:element name="CAP" type="xs:string" /> 
+            <xs:element name="nazione" type="xs:string" />
+            <xs:element name="carta" type="xs:string" />
+        </xs:all>
+        <xs:attribute name="admin" type="xs:int" use="required" />
+    </xs:complexType>    
+</xs:schema>

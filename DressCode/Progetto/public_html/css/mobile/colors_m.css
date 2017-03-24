@@ -1,0 +1,33 @@
+span.colorSpan {
+	float: right;
+	width: 0.5em;
+	height: 0.5em;
+	margin-right: 0px;
+	margin-left: 20px;
+	border: 1px solid black;
+	border-radius: 1.5em;
+}
+
+#circleNero{ background: #000000; }
+
+#circleBianco{ background: #FFFFFF; }
+
+#circleVerde{ background: #047C00; }
+
+#circleBlu{ background: #07309F; }
+
+#circleRosso{ background: #EC0000; }
+
+#circleMarrone{ background: #460505; }
+
+#circleAzzurro{ background: #55CAE8; }
+
+#circleGiallo{ background: #FFE80E; }
+
+#circleGrigio{ background: #9A9999; }
+
+#circleArancione{ background: #F97D1E; }
+
+#circleViola{ background: #9200BF; }
+
+#circleRosa{ background: #F66FD2; }

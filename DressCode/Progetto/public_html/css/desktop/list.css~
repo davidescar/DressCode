@@ -1,0 +1,194 @@
+#listTitle{
+	margin: 2em 0;
+	padding-bottom: 1em;
+	text-align: center;
+	text-transform: uppercase;
+	border-bottom: 2px solid gray;
+}
+
+/* ============= FILTRI ============= */
+
+#filtersList {
+	float: left;
+	width: 20%;
+	margin-left: 2%;
+	padding: 1em 0;
+	padding-right: 2%;
+	list-style-type: none;
+	border-right: 2px solid gray;
+}
+
+#filtersList li span.filterTitle {
+	display: block;
+	padding: 0.5em;
+	font-weight: bold;
+	text-align: left;
+	text-transform: uppercase;
+	border-top: 2px solid gray;
+	border-bottom: 2px solid gray;
+}
+
+#filtersList li ul {
+	padding: 0.5em 0;
+	padding-left: 5%;
+	list-style-type: none;
+	background-color: #E5E6E8;
+}
+
+#filtersList li ul li {
+	margin: 0.5em 0;
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+#filtersList li ul li div{
+	float: right;
+	margin-right: 60%;
+}
+
+#squareNero{
+	width: 20px;
+	height: 20px;
+	background: #000000;
+}
+
+#squareBianco{
+	width: 20px;
+	height: 20px;
+	background: #FFFFFF;
+}
+
+#squareVerde{
+	width: 20px;
+	height: 20px;
+	background: #00C200;
+}
+
+#squareBlue{
+	width: 20px;
+	height: 20px;
+	background: #0000FF;
+}
+
+#squareRosso{
+	width: 20px;
+	height: 20px;
+	background: #FF0000;
+}
+
+#squareMarrone{
+	width: 20px;
+	height: 20px;
+	background: #824200;
+}
+
+#squareAzzurro{
+	width: 20px;
+	height: 20px;
+	background: #A1E2FF;
+}
+
+#squareGiallo{
+	width: 20px;
+	height: 20px;
+	background: #FFFF00;
+}
+
+#squareGrigio{
+	width: 20px;
+	height: 20px;
+	background: #A2A2A2;
+}
+
+#squareArancione{
+	width: 20px;
+	height: 20px;
+	background: #FF8100;
+}
+
+#squareViola{
+	width: 20px;
+	height: 20px;
+	background: #E000E0;
+}
+
+#squareRosa{
+	width: 20px;
+	height: 20px;
+	background: #FF9FA9;
+}
+
+
+/* ============== PRODOTTI ============ */
+
+#productsList {
+	float: right;
+	margin: 0;
+	margin-right: 1%;
+	padding: 0;
+	min-width: 72%;
+	list-style-type: none;
+}
+
+#productsList li ul {
+	float: left;
+	margin: 0 0.5em;
+	padding: 0;
+	list-style-type: none;
+	border-bottom: 2px solid gray;
+}
+
+/* ============ IMMAGINE ============ */
+#productsList li ul li.p_img span {
+	display: none;
+}
+
+#productsList li ul li.p_img img {
+	width: 280px;
+	height: 250px;
+}
+
+/* ============ NOME ============ */
+#productsList li ul li.p_name span {
+	display: none;
+}
+
+#productsList li ul li.p_name {
+	margin-bottom: 0.5em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/* ============ TIPO ============ */
+#productsList li ul li.p_type span {
+	display: none;
+}
+
+#productsList li ul li.p_type {
+	color: gray;
+	margin-bottom: 0.5em;
+	font-style: italic;
+}
+
+/* ============ PREZZO ============ */
+#productsList li ul li.p_price span {
+	display: none;
+}
+
+#productsList li ul li.p_price {
+	font-weight: bold;
+	margin-bottom: 0.5em;
+}
+
+/* ============ PROMOZIONE & ELIM ============ */
+#productsList li ul li.p_prom_on,
+#productsList li ul li.p_prom_off,
+#productsList li ul li.p_del {
+	
+}
+
+/* =========== ANCORA AL TOP PAGINA ========= */
+#topAnchor {
+	clear: both;
+}
+

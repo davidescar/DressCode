@@ -1,0 +1,177 @@
+
+@import url(base_m.css);
+@import url(colors_m.css);
+
+/* ============= FILTRI ============= */
+
+#activate_fil{
+	display: block;
+	width: 100%;
+	margin-top: 1em;
+	padding: 0.5em 0;
+	cursor: pointer;
+	text-align: center;	
+	text-transform: uppercase;	
+	background-color: #46a081;	
+}
+
+#filtersList{
+	display: none;
+	float: none;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	border: 0;
+	list-style-type: none;
+}
+
+#filtersList ul{
+	padding: 1em;
+	list-style-type: none;
+}
+
+#filtersList span{
+	font-weight: bold;
+}
+
+#filtersList p{
+	margin-left: 35%;
+}
+
+#filtersList p input[type=submit]{
+	margin: 0;
+}
+
+/* ===== TITLE ==== */
+
+h2.ptitle {
+	padding-left: 1em;
+}
+
+/* ============== PRODOTTI ============ */
+
+/* next prev link */
+
+p.limitString{
+	display: inline-block;
+	margin: 2em 2%;
+}
+
+p.limitString a {
+	clear: both;
+	display: inline-block;
+	width: 30%;
+	font-size: 1em;
+	margin-top: 0.5em;
+	padding-left: 2em;
+	text-decoration: underline;
+}
+
+p.limitString a.pnext {
+	background: url(../../images/css/next.png) no-repeat left;	
+}
+
+p.limitString a.pprev {
+	background: url(../../images/css/previous.png) no-repeat left;	
+}
+
+#topAnchor{
+	display: none;
+}
+
+/* prod list */
+
+#productsList{
+	float: none;
+	width: 108%;
+	margin: 0;
+	margin: 0.5em 0;
+	margin-left: -10px;
+	padding: 0;	
+}
+
+#productsList li ul{
+	float: left;
+	margin: 0;
+	padding: 0;
+	max-width: 48.5%;
+	border: 2.5px groove gray;
+}
+
+#productsList li ul li{
+	margin-left: 3px;
+}
+
+@media screen and (max-width: 400px){
+	#productsList li ul{
+		min-width: 60%;
+		margin: 0 15%;
+	}
+}	
+
+
+
+
+
+
+/*==========SEARCH=========*/
+
+#search_title {
+	width: 100%;
+	margin: 0em;
+	margin-bottom: 0.5em;
+	margin-left: -10%;
+	padding: 1em;
+	font-size: 1.2em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+span#listsearch{
+	margin-left: 0em;
+	padding: 1.2em;
+	background: url(../../images/css/search_result.png) no-repeat left;
+}
+
+#search_list{
+	float: left;
+	list-style-type: none;
+	width: 120%;
+	padding-left: 0em;
+	margin-right: 0em;
+	margin-left: -1.5em;
+}
+
+#search_list li{
+	width: 100%;
+}
+
+#search_list li ul{
+	float: left;
+	max-width: 48%;
+	max-height: 27em;
+	margin: 0 0.5em;
+	margin-bottom: 2.5em;
+	padding: 0;
+	list-style-type: none;
+	border-bottom: 5px double gray;
+	margin-left: 0em;
+}
+
+#search_list li p{
+	font-size: 1.2em;
+	margin-left: 3em;
+	margin-bottom: 2em;
+}
+
+#search_list li ul li.p_categ, #productsList li ul li.p_categ {
+	font-size: 1em;
+	margin-bottom: 0.5em;
+	font-style: italic;
+}
+
+p.no_results {
+    font-size: 95%;
+    margin: 2em 5%;
+}
+

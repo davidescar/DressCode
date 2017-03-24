@@ -1,0 +1,70 @@
+
+@import url("base.css");
+
+#dashList {
+	height: 30em;
+	margin: 1em 10%;
+	margin-bottom: 2em;
+	padding-top: 1em;
+	list-style-type: none;
+	border-top: 2px solid gray;
+}
+
+#dashList li {
+	margin: 1em 25%;
+	padding: 1.5em 0;
+	text-align: center;
+	border-bottom: 5px double #2f6a55;
+}
+
+#dashList li:hover {
+	font-size: 20px;
+	border-top: 5px solid #2f6a55;
+	border-bottom: 3px solid #2f6a55;
+}
+
+#dashList li a {
+	padding: 2.5em 3em;
+}
+
+#dashList li:nth-child(1) a {
+	background: url(../../images/css/list.png) no-repeat left;
+}
+
+#dashList li:nth-child(2) a {
+	background: url(../../images/css/add.png) no-repeat left;
+}
+
+#dashList li:nth-child(3) a {
+	background: url(../../images/css/modify.png) no-repeat left;
+}
+
+#dashList li:nth-child(4) a {
+	background: url(../../images/css/clear.png) no-repeat left;
+}
+
+#dashList li:nth-child(5) a {
+	background: url(../../images/css/delete_user.png) no-repeat left;
+}
+
+@media screen and (min-width: 750px) and (max-width: 1100px) {
+	h2.ptitle {
+		margin-top: 5em;
+	}
+	
+	#dashList li {
+		margin: 1em 5%;
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 749px){  
+
+	h2.ptitle {
+		margin-top: 5em;
+	}
+	
+	#dashList li {
+		margin: 1em 5%;
+	}
+	
+}

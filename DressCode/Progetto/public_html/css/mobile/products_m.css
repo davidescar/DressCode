@@ -1,0 +1,168 @@
+
+@import url("base_m.css");
+@import url("colors_m.css");
+
+p a{
+	text-decoration: underline;
+}
+
+/* ==== LISTA GENERALE === */
+
+ul#lista_prodotti {
+   padding: 0;
+}
+  
+ul#lista_prodotti li.main_item {
+	width: 100%;
+	height: 20em;
+	margin: 0;
+	margin-bottom: 1em;
+	border: 5px double gray;
+}
+
+
+/* immagine */
+
+ul.plist li.pimg img {
+	margin-left: -30%;
+}
+
+/* codice */
+
+ul.plist li.pcod {
+	right: 40%;
+}
+
+/* nome */
+
+ul.plist li.pnom {
+	bottom: 7.2em;
+	font-size: 1.3em;
+	text-align: left;
+}
+
+ul.plist li.pnom a{
+	margin-left: -120%;
+}
+
+/* prezzo */
+
+ul.plist li.ppre {
+	float: right;
+	font-size: 1em;
+	width: 55%;
+	padding: 0em;
+	position: relative;
+	left: -20%;
+	bottom: 8.5em;
+}
+
+ul.plist li.pscont {
+    min-width: 10%;
+    position: relative;
+    bottom: 8.5em;
+    left: 75%;
+}
+
+ul.plist li.pre span:nth-child(2) {
+	display: inline;
+}
+
+ul.plist li.pcat span,
+ul.plist li.ptip span,
+ul.plist li.pmat span {
+	margin-right: 0.5em;
+}
+
+/* categoria */
+
+ul.plist li.pcat {
+	width: 50%;
+	position: relative;
+	left: 24.5%;
+	bottom: 8em;
+	border-bottom: 5px ridge gray;
+}
+
+/* tipologia */
+
+ul.plist li.ptip {
+	width: 50%;
+	position: relative;
+	left: 24.5%;
+	bottom: 7em;
+	border-bottom: 5px ridge gray;
+}
+
+/* materiale */
+
+ul.plist li.pmat {
+	width: 50%;
+	position: relative;
+	left: 24.5%;
+	bottom: 7em;
+	border-bottom: 5px ridge gray;
+}
+
+/* taglie */
+
+ul.plist li.ptag span {
+	margin-right: 0.5em;
+}
+
+ul.plist li.ptag {
+	width: 27%;
+	position: relative;
+	left: -26%;
+	bottom: 2em;
+}
+
+/* colori */
+
+ul.plist li.pcol span:first-child {
+	margin-right: 0.5em;
+}
+
+ul.plist li.pcol {
+	width: 100%;
+	position: relative;
+	left: 25%;
+	bottom: 5.5em;
+}
+
+ul.plist li.pcol ul li span.color_n{
+	display: none;
+}
+
+span.colorSpan {
+	width: 1em;
+	height: 1em;
+	margin-right: 0;
+	margin-left: 0;
+	margin-top: 5%;
+}
+
+/* modifica */
+
+ul.plist li.pmod {
+	position: relative;
+	bottom: 2.5em;
+	left: 10%;
+}
+
+ul.plist li.pmod a {
+	padding-right: 2em;
+}
+
+/* delete */
+
+ul.plist li.pdel {
+	position: relative;
+	left: 5%;
+	bottom: 2.5em;
+}
+
+ul.plist li.pdel a {
+	padding-right: 2em;
+	
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<so:utentiRegistrati xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:so="http://informatica.math.unipd.it" xs:schemaLocation="http://informatica.math.unipd.it utenti.xsd">
+	<utente admin="0">
+		<email>prova@asd.com</email>
+		<password>7c4a8d09ca3762af61e59520943dc26494f8941b</password>
+		<nome>Gino</nome>
+		<cognome>Paolino</cognome>
+		<indirizzo/>
+		<citta/>
+		<CAP/>
+		<nazione/>
+		<carta/>
+	</utente>
+	<utente admin="1">
+		<email>prova@prova.com</email>
+		<password>7c4a8d09ca3762af61e59520943dc26494f8941b</password>
+		<nome>Giuseppe</nome>
+		<cognome>Bianchi</cognome>
+		<indirizzo/>
+		<citta/>
+		<CAP/>
+		<nazione/>
+		<carta/>
+	</utente>
+	<utente admin="0">
+		<email>ciao@gmail.com</email>
+		<password>8cb2237d0679ca88db6464eac60da96345513964</password>
+		<nome>ciao</nome>
+		<cognome>ciao</cognome>
+		<indirizzo>via ciao 1</indirizzo>
+		<citta>padova</citta>
+		<CAP>35100</CAP>
+		<nazione>Italia</nazione>
+		<carta/>
+	</utente>
+	<utente admin="0">
+		<email>mona@gmail.com</email>
+		<password>3b4f3367054b005bf971f96026b4a55003189565</password>
+		<nome>ergfer</nome>
+		<cognome>rferfe</cognome>
+		<indirizzo>gregreg</indirizzo>
+		<citta>drtgret</citta>
+		<CAP>35100</CAP>
+		<nazione>Italia</nazione>
+		<carta/>
+	</utente>
+	<utente admin="0">
+		<email>utente1@utente.it</email>
+		<password>985fe6650ed1ef0ceea44452b2dcd51aa917cfe6</password>
+		<nome>Franco</nome>
+		<cognome>Rossi</cognome>
+		<indirizzo>Via G.Franco 15</indirizzo>
+		<citta>Roma</citta>
+		<CAP>09543</CAP>
+		<nazione>Italia</nazione>
+		<carta>2352564347546858</carta>
+	</utente>
+</so:utentiRegistrati>

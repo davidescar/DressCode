@@ -1,0 +1,36 @@
+@import url(base_m.css);
+
+#dashTitle {
+	margin: 0;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#dashList {
+	margin: 0;
+	margin-bottom: 2em;
+	padding: 0;
+	list-style-type: none;
+	border-top: 2px solid gray;
+}
+
+#dashList li {
+	margin: 1em 0;
+	padding: 1.5em 0;
+	text-align: center;
+	border-bottom: 5px double #2f6a55;
+}
+
+#dashList li:hover {
+	font-weight: bold;
+	border-top: 5px solid #2f6a55;
+	border-bottom: 3px solid #2f6a55;
+}
+
+#dashList li a {
+	padding: 2.5em 3em;
+}
+
+#dashList li:hover a{
+	padding: 1em 2em;
+}

@@ -1,0 +1,137 @@
+#!/usr/bin/perl -w
+
+require "../header.cgi";
+
+use XML::LibXML;
+use CGI qw(:standard);
+use CGI::Carp qw(fatalsToBrowser);
+
+#======= COSTRUZIONE PARSER ============
+makeUserParser("../../data/utenti.xml");
+makeProductParser("../../data/prodotti.xml","../../data/recensioni.xml");
+
+#========= CREAZIONE VARIABILI DI SESSIONE ======
+makeSession();
+
+#======= PRELIEVO INFO PRODOTTO ========
+my $code=param('codice');
+
+my $name=$docProd->findvalue("//prodotto[attribute::codice='".$code."']/nome");
+my $price=$docProd->findvalue("//prodotto[attribute::codice='".$code."']/prezzo");
+my $descr=$docProd->findvalue("//prodotto[attribute::codice='".$code."']/descrizione");
+my $material=$docProd->findvalue("//prodotto[attribute::codice='".$code."']/materiale");
+my $type=$docProd->findvalue("//prodotto[attribute::codice='".$code."']/tipologia");
+my $category=$docProd->findvalue("//prodotto[attribute::codice='".$code."']/categoria");
+my @sizes=$docProd->findnodes("//prodotto[attribute::codice='".$code."']/taglieDisponibili/taglia/text()");
+my @colors=$docProd->findnodes("//prodotto[attribute::codice='".$code."']/coloriDisponibili/colore/text()");
+my @images=$docProd->findnodes("//prodotto[attribute::codice='".$code."']/immaginiProdotto/immagine/text()");
+
+$price =~ s/\./,/;     # rimpiazza il punto con la virgola
+
+print "Content-type: text/html\n\n";
+
+printDoctype();
+print "
+<html xmlns='http://www.w3.org/1999/xhtml'  xml:lang='it' lang='it'>
+	<head>
+		<title>Scheda Prodotto</title>
+		<meta name='keywords' content='Abbigliamento, Shop, Store, Progetto, Web, StoreOnline, Unipd' />";
+		printMetaTag();		
+print"
+	</head>
+	<body>";
+		printHeader();			
+# ============= CORPO SCHEDA ================
+print " 
+		<div id='infoProd'>
+			<h3 id='tab_title'>Scheda Prodotto</h3>
+			<form action='function/addCart.cgi' method='get'>
+				<ul id='info_list'>
+					<li id='info_code'>
+						<span>Codice prodotto: $code</span>
+						<input type='hidden' id='codice' name='codice' value='".$code."' />
+					</li>
+					<li id='info_title'><span>Nome: </span>$name</li> 
+					<li id='info_price'><span>Prezzo: </span>$price &euro;</li>
+					<li id='info_det'><span>Dettagli</span>
+						<ul id='det_list'>
+							<li>					
+								<label for='taglia'>Taglie</label>
+								<select name='taglia' id='taglia'>";
+									$n=@sizes;
+									for ($i=0; $i<$n; $i++){
+										print "<option value='@sizes[$i]'>@sizes[$i]</option>";
+									}
+print "						</select>
+						</li> 
+						<li>
+							<label for='colore'>Colori</label>
+							<select name='colore' id='colore'>";
+								$n=@colors;
+								for ($i=0; $i<$n; $i++){
+									print "<option value='@colors[$i]'>@colors[$i]</option>";
+								}
+print "						</select>
+						</li> 
+						<li id='det_mat'><span>Materiale</span> $material</li> 
+						<li id='det_descr'><span>Descrizione</span> $descr </li> 
+						</ul>
+					</li>
+					<li id='info_cart'>
+						<input type='submit' value='Aggiungi al Carrello' />
+					</li>";
+					if("$admin" eq "admin"){
+						print "<li>
+						<p><a href='../admin/formModProd.cgi?codice=".$code."'>Modifica prodotto</a></p>
+						<p><a href='../admin/function/deleteProd.cgi?selProd=".$code."'>Elimina prodotto</a></p>
+					</li>";
+					}
+					if(param('e')){
+						print "<p>Non puoi</p>";
+					}
+print "			</ul>
+			</form>
+			<h3 id='images_title'>Immagini Prodotto</h3>
+			<ul id='images_list'>";
+				$n=@images;
+				print "<li id='b_image'><img src='/public_html/images/prodotti/@images[$i]' alt='$name immagine'/></li>";
+				$i=1;
+				for($i; $i<$n; $i++){
+					print "<li class='s_images'><img src='/public_html/images/prodotti/@images[$i]' alt='$name immagine'/></li>";
+				}
+print "		
+			</ul>
+			<h3 id='com_title'>Commenti Utente</h3>
+			<ul id='com_list'>";
+				my @allComments=$docRec->findnodes("//rec[attribute::codice=".$code."]");
+				$allComments=@allComments;
+				if(!$allComments){
+					print "<li>Non ci sono commenti!</li>";
+				}else {
+					for $commento(@allComments){
+						$author=$commento->findnodes("attribute::autore");
+						$data=$commento->findnodes('data');
+						@d=split('-',$data);
+						$data=@d[2]."-".@d[1]."-".@d[0];
+						$c=$commento->findnodes('descrizione/text()');
+						$x=$commento->findnodes('punteggio/text()');
+print "					<li>
+							<dl>
+								<dt>autore</dt>
+									<dd class='author'>$author</dd>
+								<dt>data</dt>
+									<dd class='date'>$data</dd>
+								<dt>punteggio</dt>
+									<dd class='val'>$x</dd>
+								<dt>descrizione</dt>
+									<dd class='comment'>$c</dd>
+							</dl>
+						</li>";
+					}
+				}
+print "		</ul>
+		</div>";
+		printFooter();
+print"
+	</body>
+</html>";

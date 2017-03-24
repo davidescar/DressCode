@@ -1,0 +1,34 @@
+@import url(base_m.css);
+
+h2.ptitle {
+	background-position: 5%;
+}
+
+#regForm{
+	margin: 2em 0;
+	padding: 0;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+#regForm fieldset {
+	border: 0;
+}
+
+#regForm legend {
+	display: none;
+}
+
+#regForm label {
+	display: block;
+}
+
+#regForm input {
+	width: 80%;
+	background-size: contain;
+}
+
+#regForm input[type='submit'] {
+	margin: 2.5em 0;
+}
+

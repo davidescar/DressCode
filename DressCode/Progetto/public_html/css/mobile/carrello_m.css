@@ -1,0 +1,134 @@
+@import url(base_m.css);
+
+/* ==== TITOLO === */
+#cart_title {
+	margin: 0;
+	margin-top: 2em;
+	text-align: center;
+	text-transform: uppercase;
+	width: 100%;
+	max-height: 40px;
+	position: absolute;
+	background: url(../../images/css/cart.png) no-repeat;
+	background-position: 25% 0;
+}
+
+/*===== ALERT ===== */
+#cart_alert {
+	margin: 0;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	text-align: center;
+	color: #CC0000;
+	font-size: 1.2em;
+}
+
+#order_ok {
+	margin: 3em 10% 3em 10%;
+	text-align: center;
+	color: #11AE11;
+	font-size: 1.2em;
+}
+
+/*====== TABLE CART ====*/
+
+#cart_table {
+	width: 110%;
+	min-height: 1em; 
+	margin: 1em 0%;
+	margin-left: -5%;
+	text-align: center;
+}
+
+#cart_table td {
+	padding: 0.7em 0.5em;
+	border-bottom: 1px solid gray;
+}
+
+.hide_t {
+	display: none;
+}
+
+#cart_table tr td img{
+	width: 60%;
+}
+
+ul.quantity li:nth-child(2) a{
+	margin-left: 0.3em;
+	padding: 0.7em;
+	background-size: contain;
+}
+
+ul.quantity li:nth-child(3) a{
+	margin-left: 0.3em;
+	padding: 0.7em;
+	background-size: contain;
+}
+
+
+#totale{
+	text-align: center;
+	width: 50%;
+	font-size: 1.4em;
+	margin-bottom: 2em;
+	color: white;
+	background: #54504D;
+	border-radius: 1em 1em;
+	padding: 1em 1em;
+	margin-left: 20%;
+	margin-bottom: 1.5em;
+}
+
+h3{
+	text-align: center;
+}
+
+#spedizione{
+	padding: 2em 1.5em;
+	background: url(../../images/css/delivery.png) no-repeat left;
+}
+
+#address{
+	padding: 2em 1.5em;
+	background: url(../../images/css/address.png) no-repeat left;
+}
+
+#pagamento{
+	padding: 2em 1.5em;
+	background: url(../../images/css/credit_card.png) no-repeat left;
+}
+
+/*====== FORM ACQUISTO ====*/
+#add_purchase{
+	margin: 0em;
+	margin-left: -5%;
+	width: 107%;
+	text-align: center;
+	border-left: 2px solid gray;
+	border-right: 2px solid gray;
+	margin-bottom: 2em;
+}
+
+#add_purchase ul{
+	margin-left: -2em;
+}
+
+#add_purchase ul li{
+	list-style-type: none;
+	display: inline;
+	padding-right: 2em;
+}
+
+#add_purchase ul li:nth-child(1){
+	border-right: 0px solid gray;
+	margin-left: 25%;
+}
+
+#add_purchase ul li:nth-child(2){
+	margin-left: 3em;	
+	margin-right: 15%;
+}
+
+#add_purchase label, #add_purchase input{
+	cursor: pointer;
+}

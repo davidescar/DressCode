@@ -1,0 +1,48 @@
+@import url(base_m.css);
+
+#regForm ul li{
+	list-style-type: none;
+}
+
+#lower{
+	text-transform: none;
+}
+
+#gest_p{
+	margin:0;
+	padding:0;
+	width: 90%;
+	margin-left: 5%;
+}
+
+#profileList {
+	margin: 0;
+	padding: 0em;
+	list-style-type: none;
+	border-top: 2px solid gray;
+}
+
+#profileList li {
+	margin: 1em 0;
+	padding: 1.5em 0;
+	text-align: center;
+	border-bottom: 5px double #2f6a55;
+}
+
+form.profile_form {
+	margin: 3em 30%;
+	border-left: 0px solid gray;
+	border-right: 0px solid gray;
+}
+
+form.profile_form input.pinput, form.profile_form input.ppass{
+	font-size: 1.3em;
+}
+
+form.profile_form ul li {
+	margin-left: -50px;
+}
+
+form.profile_form label{
+	font-size: 1.5em;
+}

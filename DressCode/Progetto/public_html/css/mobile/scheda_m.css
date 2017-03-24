@@ -1,0 +1,286 @@
+@import url(base_m.css);
+
+/* =========== IMMAGINI ========== */
+
+#images_list {
+	float: none;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	border-right: 0;
+}
+
+#images_list li {
+	float: none;
+	padding: 0;
+	margin: 0;
+}
+
+#b_image img {
+	margin: 0;
+	padding: 0;
+	min-width: 50%;
+	min-height: 50%;
+}
+
+#images_list li img {
+	width: 80%;
+	height: 100%;
+	margin-top: 1em;
+}
+
+#images_list li.s_images{
+	cursor: auto;
+}
+
+#images_list .s_images {
+	border-top: 2px solid gray;
+}
+
+#notaClickImm {
+	visibility: hidden;
+}
+
+/* =========== INFO ========== */
+
+#info_list {
+	float: none;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#info_title {
+	text-transform: uppercase;
+	font-size: 2em;
+	font-weight: bold;
+	margin: 0.5em auto;
+	text-align: center;
+}
+
+#info_price {
+	font-size: 1.8em;
+	margin-bottom: 1.5em;
+}
+
+span.sales{
+	color: gray;
+	margin-right: 5%;
+	text-decoration: line-through;
+}
+
+#info_disc{
+	color: #b50000;
+	display: block;
+	margin-top: 0.5em;
+	font-size: 0.8em;	
+}
+
+#info_operations p {
+	display: none;
+}
+
+#info_operations ul {
+	position: relative;
+	margin-bottom: 1em;
+	padding: 0.7em;
+}
+
+#info_operations li{
+	list-style-type: none;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin-bottom: 2em;
+	margin-right: 2em;
+	border-bottom: 5px double #2f6a55;
+}
+
+#info_operations li:hover{
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border-top: 5px solid #2f6a55;
+	border-bottom: 3px solid #2f6a55;
+}
+
+#info_operations ul li.modify a{
+	padding: 2.5em;
+	background: url(../../images/css/modify.png) no-repeat left;
+}
+
+#info_operations ul li.delete a{
+	padding: 2.5em;
+	background: url(../../images/css/clear.png) no-repeat left;
+}
+
+#info_operations ul li.prom_off a{
+	padding: 2.5em;
+	background: url(../../images/css/rmv_prom.png) no-repeat left;
+}
+
+#info_det {
+	margin-top: 2em;
+	padding-top: 1em;
+	border-top: 1px solid gray;
+}
+
+#info_det span {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#det_list {
+	margin-top: 1.5em;
+	padding-left: 0;
+	list-style-type: none;
+}	
+
+#det_list li {
+	margin: 0.5em 0;
+}
+
+#det_list li label {
+	font-weight: bold;
+	margin-right: 20%;
+}
+
+#det_descr {
+	padding: 2.5em 0;
+}
+
+#info_code span, #det_descr span {
+	display: none;
+}
+
+span.hid{
+	display: none;
+}
+
+.italic{
+	font-style: italic;
+}
+
+#det_mat{
+	padding-top: 1em;
+}
+
+#det_mat span {
+	margin-right: 3.5em;
+	text-transform: capitalize;
+}
+
+#imgsale{
+	display: inline-block;
+	height: 80px;
+	width: 80px;
+	background: url(../../images/css/sale_offer.png) no-repeat;
+	background-size: contain;
+	margin-bottom: -10px;
+	margin-left: 1.5em;
+}
+
+#shop_cart{
+	display: inline-block;
+	height: 3em;
+	width: 3em;
+	background: url(../../images/css/add_cart.png) no-repeat;
+	z-index: 0;
+	background-size: contain;
+	margin-bottom: -1em;
+	margin-right: 1em;
+}
+
+/* ====== RECENSIONI ======= */
+
+/* titolo */
+
+#com_title {
+	clear: both;
+	text-transform: uppercase;
+	margin: 1em 0;
+	padding-right: 5%;
+	padding-top: 1em;
+	border-top: 2px solid gray;
+}
+
+#com_title span {
+	float: left;
+	width: 2.5em;
+	height: 2em;
+	position: relative;
+	left: 0.2em;
+	background: url(../../images/css/reviews.png) no-repeat;
+}
+
+/* LISTA */
+
+#com_list {
+	clear: both;
+	margin: 0em;
+	list-style-type: none;
+}
+
+#com_list li {
+	margin: 2em 0;
+	list-style-type: none;
+	margin-left: -2.5em;
+}
+
+/* SINGOLA RECENSIONE */
+
+#com_list li dl dt {
+	display: none;
+}
+
+#com_list li dl dd.author {
+	color: #000000;
+	width: 50%;
+	padding: 0;
+	font-weight: bold;
+}
+
+#com_list li dl dd.date {
+	color: gray;
+	width: 50%;
+}
+
+#com_list li dl dd.admin_option {
+	width: 100%;
+	margin: 0;
+	margin-right: -3em;
+	padding: 0.5em 0;
+	padding-left: 2em;
+	background: url(../../images/css/trash.png) no-repeat left;
+}
+
+#com_list li dl dd.val {
+	float: right;
+	position: relative;
+	top: 2em;
+	left: 3.5em;
+	padding: 0.5em 4em;
+}
+
+#com_list li dl dd.val span.star {
+	padding: 1em 0.8em;
+	background: url(../../images/css/valstar.png) no-repeat left;
+}
+
+#com_list li dl dd.comment {
+	padding: 1em;
+	margin-top: 3em;
+	border-top: 1px solid gray;
+	border-bottom: 2px double gray;
+	font-style: italic;
+}
+
+/* FORM INSERIMENTO REC */
+
+#form_rec {
+	margin: 0;
+}
+
+#form_rec fieldset textarea {
+	width: 80%;
+}

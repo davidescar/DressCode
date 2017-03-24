@@ -1,0 +1,336 @@
+
+
+@import url("base.css");
+@import url("colors.css");
+
+/* =========== PAGE TITLE =========== */
+
+h2.ptitle {
+	margin: 2em 30%;
+	text-indent: -2em;
+}
+
+h3 {
+	display: none;
+}
+
+#lower {
+    text-transform: none;
+}
+
+/* ============= FILTRI ============= */
+
+#filtersList{ 
+	float: left;
+	width: 25%;
+	height: 96em;
+	margin-left: 1%;
+	margin-bottom: 2em;
+	border-right: 5px double gray;
+}
+
+#filtersList ul {
+	padding: 0;
+	padding-right: 2%;
+	list-style-type: none;
+}
+
+#filtersList ul li span {
+	display: block;
+	padding: 0.5em;
+	font-weight: bold;
+	text-align: left;
+	text-transform: uppercase;
+	border-top: 2px solid gray;
+	border-bottom: 2px solid gray;
+	cursor: pointer;	
+}
+
+#filtersList ul li span.filterClosed {
+	background: url(../../images/css/arrow_down.png) no-repeat right;
+}
+
+#filtersList ul li span.filterOpened {
+	background: url(../../images/css/arrow_up.png) no-repeat right;
+}
+
+#filtersList ul li ul {
+	padding: 0.5em 0;
+	padding-left: 5%;
+	background-color: #E5E6E8;
+}
+
+#filtersList ul li ul li {
+	margin: 0.5em 0;
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+#filtersList p input[type=submit] {
+	margin: 0.5em 15%;
+}
+
+/* regole colori associati a input checkbox */
+
+#filtersList ul li ul[id='togglecol'] li span {
+	float: right;
+	width: 0.5em;
+	height: 0.5em;
+	margin-right: 50%;
+	border: 1px solid black;
+	border-radius: 1.5em;
+}
+
+/* ============== PRODOTTI ============ */
+
+/* stringa limiti visualizzati */
+
+p.limitString {
+	float: right;
+	margin-right: 5%;
+}
+
+a.pnext {
+	margin-left: 1em;
+	padding-left: 2em;
+	background: url(../../images/css/next.png) no-repeat left;
+}
+
+a.pprev {
+	margin-left: 1em;
+	padding-left: 2em;
+	background: url(../../images/css/previous.png) no-repeat left;
+}
+
+#topAnchor {
+	clear: both;
+	margin-left: 30%;
+	padding-left: 2em;
+	background: url(../../images/css/goup.png) no-repeat left;
+}
+
+/* lista prodotti */
+
+#productsList {
+	float: right;
+	margin: 0;
+	margin-right: 1%;
+	padding: 0;
+	width: 72%;
+	list-style-type: none;
+}
+
+#productsList li ul, #search_list li ul {
+	float: left;
+	max-width: 31%;
+	max-height: 27em;
+	margin: 0 0.5em;
+	margin-bottom: 2.5em;
+	padding: 0;
+	list-style-type: none;
+	border-bottom: 5px double gray;
+	margin-left: 2em;
+}
+
+/* ============ IMMAGINE ============ */
+
+#productsList li ul li.p_img img, #search_list li ul li.p_img img {
+	width: 15em;
+	height: 20em;
+}
+
+/* ============ NOME ============ */
+
+#productsList li ul li.p_name, #search_list li ul li.p_name{
+	margin-bottom: 0.5em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/* ============ TIPO ============ */
+
+#productsList li ul li.p_type, #search_list li ul li.p_type {
+	color: gray;
+	margin-bottom: 0.5em;
+	font-style: italic;
+}
+
+/* ============ PREZZO ============ */
+
+#productsList li ul li.p_price, #search_list li ul li.p_price {
+	font-weight: bold;
+	margin-bottom: 0.5em;
+}
+
+#productsList li ul li.p_price span.sales, #search_list li ul li.p_price span.sales {
+	padding-left: 2.5em; 
+	background: url(../../images/css/sale.png) no-repeat left;
+}
+
+/* ========== LINK AMMINISTRATORE - FORM LINK AGGIUNGI PROMO ========= */
+
+#productsList li ul li.p_prom_on {
+	float: right;
+	position: relative;
+	bottom: 5em;
+	margin-right: 1em;
+	text-align: center;
+}
+
+#productsList li ul li.p_prom_on form div input[type=submit] {
+	display: block;
+	margin-top: 1em;
+	padding-bottom: 0.5em;
+	padding-right: 2em;
+	text-decoration: underline;
+	border: 0;
+	cursor: pointer;
+	background: url(../../images/css/add_prom.png) no-repeat right;
+}
+
+/* =========== LINK RIMOZIONE PROMOZIONE ======= */
+
+#productsList li ul li.p_prom_off {
+	position: relative;
+	left: 2em;
+	bottom: 7em;
+	padding: 0.5em;
+}
+
+#productsList li ul li.p_prom_off a {	
+	padding: 1em 2em;
+	background: url(../../images/css/rmv_prom.png) no-repeat left;
+}
+
+/* ====== LINK RIMOZIONE PRODOTTO ======= */
+
+#productsList li ul li.p_del {
+	float: left;
+	position: relative;
+	bottom: 19em;
+}
+
+#productsList li ul li.p_del a {
+	padding-top: 2em;
+	padding-left: 0.2em;
+	background: url(../../images/css/clear.png) no-repeat top;
+}
+
+/* ====== RISULTATO SEARCH ======= */
+
+#search_title {
+	margin: 2em;
+	margin-bottom: 0.5em;
+	padding: 1em;
+	font-size: 1.4em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+span#listsearch{
+	margin-left: 1em;
+	padding: 1em 2em;
+	background: url(../../images/css/search_result.png) no-repeat left;
+}
+
+#search_list{
+	float: left;
+	list-style-type: none;
+	width: 100%;
+	padding-left: 2em;
+	margin-right: 2em;
+}
+
+#search_list li p{
+	font-size: 1.2em;
+	margin-left: 3em;
+	margin-bottom: 2em;
+}
+
+#search_list li ul li.p_categ, #productsList li ul li.p_categ {
+	font-size: 1em;
+	margin-bottom: 0.5em;
+	font-style: italic;
+}
+
+@media screen and (min-width: 481px) and (max-width: 749px){
+	
+	h2.ptitle {
+		margin: 2em 25%;
+		margin-top: 5em;
+		text-indent: 0;
+	}	
+	
+	#search_title {
+	  margin-top: 3.5em;
+	}
+	
+	p.no_results {
+	 margin: 0 20%;
+	}
+	
+	/* filtri */
+	
+	#filtersList {
+		float: initial;
+		width: 50%;
+		height: initial;
+		margin: 0 15%;
+		padding: 0 5em;
+		border-right: 2px solid gray;
+		border-left: 2px solid gray;
+	}
+	
+	#filtersList ul {
+		float: initial;
+		display: block;
+	}
+	
+	#filtersList p input[type=submit] {
+		margin: 0.5em 25%;
+	}
+	
+	/* prodotti */
+	
+	p.limitString {
+		float: initial;
+		margin: 2em 0;
+		margin-left: 2em;
+		text-align: center;
+	}
+		
+	#productsList {
+		float: initial;
+		margin: 0 auto;
+	}
+	
+	#productsList li ul {
+		float: initial;
+		min-width: 50%;
+		margin: 1em auto;
+		text-align: center;
+	}
+	
+}
+
+@media screen and (min-width: 750px) and (max-width: 1100px){
+	
+	h2.ptitle {
+		margin-top: 4em;
+	}
+	
+	#filtersList ul li ul[id='togglecol'] li span {
+		margin-right: 30%;
+	}
+	
+	#productsList li ul li.p_img img, #search_list li ul li.p_img img {
+		width: 10em;
+		height: 15em;
+	}
+	
+	#productsList li ul li.p_price span.sales {
+		padding-left: 0em; 
+		background: 0;
+	}
+	
+}

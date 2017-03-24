@@ -1,0 +1,48 @@
+
+@import url("base.css");
+
+/*====== LOGIN FORM ====*/
+
+h2.ptitle{
+	margin: 2em 40%;
+	background: url(../../images/css/house.png) no-repeat left;
+}
+
+#log_form {
+	margin: 1em 30%;
+	text-align: center;
+	padding: 2em 1em;
+	border-left: 2px solid gray;
+	border-right: 2px solid gray;
+}
+
+#log_form fieldset {
+	border: 0;
+}
+
+#log_form legend {
+	display: none;
+}
+
+#log_form label {
+	display: block;
+}
+
+#log_form input[type=submit] {
+	margin-top: 1em;
+}
+
+@media screen and (min-width: 481px) and (max-width: 749px){
+	
+	h2.ptitle {
+		margin: 2em 35%;
+		margin-top: 5em;
+	}
+	
+	#log_form {
+		margin: 1em 20%;
+	}
+	
+}
+
+

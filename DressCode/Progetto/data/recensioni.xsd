@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns="http://informatica.math.unipd.it"
+    targetNamespace="http://informatica.math.unipd.it">
+	<xs:element name="recensioni" type="user_list_comment" />
+	<xs:complexType name="user_list_comment">
+		<xs:sequence>
+	        <xs:element name="rec" type="user_comment" minOccurs="0" maxOccurs="unbounded" />
+	    </xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="user_comment">
+	  	<xs:sequence>
+			<xs:element name="data" type="xs:date" />
+			<xs:element name="descrizione" type="xs:string" />
+			<xs:element name="punteggio" type="punt" />
+		</xs:sequence>
+		<xs:attribute name="autore" type="xs:string" use="required" />
+		<xs:attribute name="codice" type="xs:string" use="required" />
+	</xs:complexType>
+	<xs:simpleType name="punt">
+		<xs:restriction base="xs:positiveInteger">
+			<xs:minInclusive value="1" />
+			<xs:maxInclusive value="5" />
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

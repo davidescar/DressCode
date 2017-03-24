@@ -1,0 +1,354 @@
+
+@import url("base.css");
+@import url("colors.css");
+
+/*=========== SELEZIONE TIPO ===========*/
+
+select.pselect {
+	width: 85%;
+}
+
+p.choiceAlert {
+	margin: 1em 30%;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+form.typeSelection {
+	margin: 1em 30%;
+	text-align: center;
+}
+
+form.typeSelection div label {
+	display: block;
+	color: #2f6a55;
+	margin: 0.5em 0;	
+}
+
+form.typeSelection ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+form.typeSelection ul li select {
+	margin-bottom: 1em;
+}
+
+/*=========== FORM INSERIMENTO ===========*/
+
+/* info generali */ 
+
+fieldset.general_info {
+	text-align: center;
+}
+
+fieldset.general_info ul {
+	list-style-type: none;
+}
+
+fieldset.general_info ul li {
+	margin-bottom: 1em;
+}
+
+fieldset.general_info ul li label {
+	display: block;
+}
+
+fieldset.general_info ul li.frame_tipologia,
+fieldset.general_info ul li.frame_codice,
+fieldset.general_info ul li.frame_nome {
+	position: relative;
+	top: 0.5em;
+	left: 25%;
+	float: left;
+}
+
+fieldset.general_info ul li.frame_codice,
+fieldset.general_info ul li.frame_nome {
+	clear: left; 
+}
+
+fieldset.general_info ul li.frame_categoria,
+fieldset.general_info ul li.frame_materiale {
+	position: relative;
+	left: 20%;
+	padding: 0;
+	margin: 0 35%;
+	margin-bottom: 1em;
+}
+
+fieldset.general_info ul li.frame_prezzo {
+	float: right;
+	position: relative;
+	top: 2em;
+	right: 20%;
+}
+
+fieldset.general_info ul li.frame_prezzo input {
+	color: white;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	text-indent: 1.5em;
+	padding: 1.5em;
+	border: 0;
+	background: url(../../images/css/price_tag.png) no-repeat center;
+}
+
+fieldset.general_info ul li.frame_descrizione {
+	clear: left;
+	margin-top: 5em;
+	margin-right: 28%;
+	margin-bottom: 2em;
+}
+
+fieldset.general_info ul li.frame_descrizione textarea {
+	padding: 1em 0.5em;
+	border: 0;
+	border-bottom: 2px solid gray;
+	text-align: center;
+	background: url(../../images/css/edit.png) no-repeat top left;
+}
+
+fieldset.general_info ul li.frame_descrizione textarea:focus {
+	border: 1px inset gray;
+	border-bottom: 2px solid gray;
+}
+
+/* taglie */
+
+fieldset.sizes_info {
+	text-align: center;
+}
+
+fieldset.sizes_info ul {
+	list-style-type: none;	
+}
+
+fieldset.sizes_info ul li {
+	display: inline;
+	padding: 0.2em 0;
+	margin: 0 3%;
+}
+
+fieldset.sizes_info ul li label{
+	border-bottom: 2px solid gray;
+}
+
+fieldset.sizes_info ul li.checkbox_number {
+	margin: 0 0.5em;
+}
+
+/* colori */
+
+fieldset.colors_info {
+	text-align: center;
+}
+
+fieldset.colors_info ul {
+	margin-right: 3%;
+	margin-bottom: 2em;
+	list-style-type: none;
+}
+
+fieldset.colors_info ul li {
+	float: left;
+	width: 20%;
+	padding: 1em;
+	margin-bottom: 0.5em;
+}
+
+fieldset.colors_info ul li label {
+	padding: 1em;
+	padding-bottom: 0;
+	margin-right: 0.5em;
+	border-bottom: 2px solid gray;
+}
+
+#unique_item {
+	margin-left: 40%;
+}
+
+span.colorSpan {
+	width: 1em;
+	height: 1em;
+	position: relative;
+	right: 20%;
+	margin-right: 0;
+}
+
+fieldset.colors_info p {
+	clear: both;
+}
+
+/* immagini */
+
+fieldset.images_info ul {
+	padding: 1em 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+fieldset.images_info ul li{
+	margin: 3em 0;
+}
+	
+fieldset.images_info ul li label {
+	margin-right: 2%;
+	border-bottom: 5px double gray;
+}
+
+fieldset.images_info ul li img{
+	width: 5em;
+	margin: 0 1em;
+}
+
+fieldset.images_info ul li input[type=file] {
+	padding: 0.5em;
+}
+
+fieldset.images_info ul li span {
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+/* ============== SUBMIT BUTTON ========= */
+
+p.submit_p {
+	text-align: center;
+}
+
+/* ============== FORM ERRORI ============ */
+
+p.perorr_title {
+	color: red;
+	margin: 1em 35%;
+	text-align: center;
+	border-bottom: 2px solid gray;
+}
+
+ul.perror_list {
+	margin: 1em 30%;
+	padding: 1em 0;
+	padding-top: 0;
+	text-align: center;
+	list-style-type: none;
+	border-bottom: 5px double gray;
+}
+
+/* ============= CONFERMA ELMINAZIONE PRODOTTO =============*/
+
+#confirmDel {
+	text-align: center;
+}
+
+#confirmDel fieldset {
+	border: 0;
+}
+
+#confirmDel fieldset span {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+/* FLEX CSS */
+
+@media screen and (min-width: 481px) and (max-width: 749px){  
+	
+	h2.ptitle {
+		margin-top: 5em;
+	}
+	
+	form.typeSelection {
+		margin: 1em 15%;
+	}
+	
+	/* margin info */
+	
+	fieldset.general_info ul li.frame_codice,
+	fieldset.general_info ul li.frame_tipologia,
+	fieldset.general_info ul li.frame_nome{
+		left: 0;
+	}
+	
+	fieldset.general_info ul li.frame_categoria,
+	fieldset.general_info ul li.frame_materiale {
+		width: 35%; 
+	}
+	
+	fieldset.general_info ul li.frame_descrizione {
+		margin: 0 25%;
+		padding: 0;
+		position: relative;
+		right: 30%;
+	}
+	
+	fieldset.general_info ul li.frame_descrizione textarea {
+		width: 90%;
+	}
+			
+	fieldset.general_info ul li.frame_prezzo input {
+		font-size: 1.5em;
+		padding: 1em 1.5em;
+		background-size: contain;
+	}
+	
+	/* taglie */
+	
+	fieldset.sizes_info ul {
+		padding-left: 0;
+	}
+	
+	fieldset.sizes_info ul li {
+		padding: 0;
+		margin-right: 0;
+	}
+	
+	/* colori */
+	
+	fieldset.colors_info ul {
+		padding-left: 20%;
+	}
+	
+	fieldset.colors_info ul li {
+		float: left;
+		width: 35%;
+	}
+	
+}
+
+@media screen and (min-width: 750px) and (max-width: 1100px){
+	
+	select.pselect {
+		width: 100%;
+	}
+	
+	fieldset.general_info ul li.frame_descrizione {
+		margin: 0 25%;
+		padding: 0;
+		position: relative;
+		right: 20%;
+	}
+	
+	fieldset.general_info ul li.frame_descrizione textarea {
+		width: 90%;
+	}
+	
+	fieldset.general_info ul li.frame_prezzo label {
+		position: relative;
+		left: 20%;
+	}
+	
+	fieldset.general_info ul li.frame_prezzo input {
+		font-size: 1.8em;
+		padding: 1em 1.5em;
+		position: relative;
+		left: 20%;
+		background-size: contain;
+	}
+	
+	span.colorSpan {
+		right: 10%;
+	}
+	
+}

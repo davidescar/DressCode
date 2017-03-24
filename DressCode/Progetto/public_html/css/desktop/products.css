@@ -1,0 +1,254 @@
+@import url("base.css");
+@import url("colors.css");
+
+p {
+	clear: both;
+	text-align: center;
+}
+
+a.aprev {
+	margin-right: 1em;
+	padding-left: 2em;
+	background: url('../../images/css/previous.png') no-repeat left;
+}
+
+a.anext {
+	padding-right: 2em;
+	background: url('../../images/css/next.png') no-repeat right;
+}
+
+/* ==== LISTA GENERALE === */
+
+ul#lista_prodotti {
+	margin-bottom: 5em;
+	list-style-type: none;
+}
+
+ul#lista_prodotti li.main_item {
+	width: 60%;
+	height: 18em;
+	margin: 0 auto;
+	margin-bottom: 2em;
+	border: 5px double gray;
+}
+
+ul#lista_prodotti li label {
+	margin-left: 0.5em;
+	text-transform: uppercase;
+	border-bottom: 5px double gray;
+}
+
+/* LISTA SINGOLO PRODOTTO */
+
+ul.plist {
+	margin-top: 2em;
+}	
+
+ul.plist li {
+	display: inline-block;
+}
+
+ul.plist li.pimg span,
+ul.plist li.pnom span,
+ul.plist li.ppre span.hid,
+ul.plist li.pscont span {
+	display: none;
+}
+
+/* immagine */
+
+ul.plist li.pimg img {
+	width: 6em;
+	height: 8em;
+	border: 3px ridge black;
+}
+
+/* codice */
+
+ul.plist li.pcod {
+	color: gray;
+	position: relative;
+	top: 2em;
+	right: 15%;
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+ul.plist li.pcod span {
+	color: black;
+	font-style: initial;
+	margin-right: 0.5em;
+}
+
+/* nome */
+
+ul.plist li.pnom {
+	width: 25%;
+	position: relative;
+	bottom: 6em;
+	font-size: 1.5em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/* prezzo e sconto*/
+
+ul.plist li.ppre {
+	width: 26%;
+	padding: 1em;
+	position: relative;
+	left: 10%;
+	bottom: 7.5em;
+	font-size: 1.2em;
+}
+
+ul.plist li.pscont{
+	color: #CC0000;
+	font-weight: bold;
+	width: 5%;
+	position: relative;
+	bottom: 6.5em;
+	right: 5%;
+}
+
+ul.plist li.pcat span,
+ul.plist li.ptip span,
+ul.plist li.pmat span {
+	margin-right: 1.5em;
+}
+
+/* categoria */
+
+ul.plist li.pcat {
+	width: 30%;
+	position: relative;
+	left: 24.5%;
+	bottom: 8em;
+	border-bottom: 5px ridge gray;
+}
+
+/* tipologia */
+
+ul.plist li.ptip {
+	width: 30%;
+	position: relative;
+	right: 6%;
+	bottom: 5.5em;
+	border-bottom: 5px ridge gray;
+}
+
+/* materiale */
+
+ul.plist li.pmat {
+	width: 30%;
+	position: relative;
+	right: 36.5%;
+	bottom: 3em;
+	border-bottom: 5px ridge gray;
+}
+
+/* taglie */
+
+ul.plist li.ptag{
+	margin-top: 1em;
+}
+
+ul.plist li.ptag span {
+	margin-right: 0.5em;
+}
+
+ul.plist li.ptag {
+	width: 20%;
+	position: relative;
+	left: 5%;
+	bottom: 1em;
+}
+
+/* colori */
+
+ul.plist li.pcol span:first-child {
+	margin-right: 0.5em;
+}
+
+ul.plist li.pcol {
+	min-width: 65%;
+	max-width: 80%;
+	position: relative;
+	left: 15%;
+	bottom: 1em;
+}
+
+ul.plist li.pcol ul {
+	display: inline;
+	padding: 0;
+}
+
+span.colorSpan {
+	margin-right: 0;
+}
+
+ul.plist li.pcol ul li{
+	margin-right: 3%;
+}
+
+/* modifica */
+
+ul.plist li.pmod {
+	position: relative;
+	left: 75%;
+	bottom: 10em;
+}
+
+ul.plist li.pmod a {
+	padding: 0 2em;
+	background: url(../../images/css/edit.png) no-repeat left;
+}
+
+/* delete */
+
+ul.plist li.pdel {
+	position: relative;
+	left: 55%;
+	bottom: 7em;
+}
+
+ul.plist li.pdel a {
+	padding: 0 2em;
+	background: url(../../images/css/clear.png) no-repeat left;
+	background-size: 1.4em 1.4em;
+}
+
+@media screen and (min-width: 750px) and (max-width: 1100px){ 
+	
+	ul#lista_prodotti li.main_item {
+		width: 80%;
+	}
+			
+}
+
+@media screen and (min-width: 481px) and (max-width: 749px){
+	
+	h2.ptitle {
+		margin-top: 5em;
+	}
+	
+	ul#lista_prodotti {
+		padding: 0;
+	}
+	
+	ul#lista_prodotti li.main_item {
+		width: 90%;
+	}
+	
+	ul#lista_prodotti li.ppre {
+	    width: 30%;
+	    left: 5%;
+	}
+	
+	ul#lista_prodotti li.pscont {
+	   position: relative;
+	   bottom: 10em;
+	   left: 80%;
+	}
+	
+}

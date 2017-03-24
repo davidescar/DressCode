@@ -1,0 +1,249 @@
+#!/usr/bin/perl -w
+
+require "../header.cgi";
+
+use CGI qw(:standard);
+use CGI::Carp qw(fatalsToBrowser);
+
+#======= COSTRUZIONE PARSER ============
+makeUserParser("../../data/utenti.xml");
+makeProductParser("../../data/prodotti.xml","../../data/recensioni.xml");
+
+#========= CREAZIONE VARIABILI DI SESSIONE ======
+makeSession();
+
+#======= PRELIEVO TIPO LISTA ========
+$tipo=param('tipo');
+$prom=param('prom');
+
+#====== VARIBILI FILTRO =======
+
+$cat=param('cat');
+@mat=param('mat[]');
+my $nmat=@mat; #numero materiali selezionati
+@tipol=param('tipol[]');
+my $ntip=@tipol; #numero tipologie selezionate
+@colr=param('colr[]');
+my $ncol=@colr; #numero colori selezionati
+$fprezzo=param('fasciaprezzo');
+
+#array contenente tutti i materiali
+my @allMat=("Lino","Cotone","Velluto","Lana","Seta","Sintetico");
+my $dimMat=@allMat;
+
+#array contenente tutte le tipologie di prodotto
+my @allTipol=("Camicia","T-Shirt","Canottiera","Felpa","Completo","Pigiama","Vestito","Gonna","Giacca","Cappotto","Giubbotto","Pantaloni", 
+			"Jeans","Shorts","Scarpe","Infradito","Pantofole","Stivali","Sciarpa","Cintura","Cappello","Accappatoio","Cravatta","Guanti","Borsa","Bracciale","Collana","Orecchini");
+my $dimTipol=@allTipol;
+
+#array contenente tutti i colori
+my @allColors=("Nero","Bianco","Azzurro","Rosso","Giallo","Blu","Marrone","Grigio","Verde","Arancione","Viola","Rosa");
+my $dimCol=@allColors;
+
+#array contenente tutte le fasce di prezzo
+my @allFPrezzo=("&lt; 20 &euro;","20-50 &euro;","50-100 &euro;","&gt; 100 &euro;");
+my $dimFP=@allFPrezzo;
+
+print "Content-type: text/html\n\n";
+
+printDoctype();
+print "
+<html xmlns='http://www.w3.org/1999/xhtml'  xml:lang='it' lang='it'>
+	<head>
+		<title>Scheda Prodotto</title>
+		<meta name='keywords' content='Abbigliamento, Shop, Store, Progetto, Web, StoreOnline, Unipd' />";
+		printMetaTag();		
+print"
+	</head>
+	<body>";
+		printHeader();	
+#============= CORPO LISTA COMPLETA =============
+print "	<h2 id='listTitle'>Lista Prodotti".("$tipo" ne "/"?" $tipo":" in promozione")."</h2>";
+#============= FILTRI ==================
+print"	<form action='prodList.cgi' method='get'>
+			<ul id='filtersList'>
+				<li>
+					<span class='filterTitle'>Materiale</span>
+					<ul>";
+						for($i=0; $i<$dimMat; $i++){
+							print "<li><input type='checkbox' name='mat[]' value='".@allMat[$i]."' ";					
+							if("@mat" =~ /\b@allMat[$i]\b/){
+								 print "checked='checked' ";
+							}
+							print "/>".@allMat[$i]."</li>";						
+						}
+					print "</ul>
+				</li>
+				<li>
+					<span class='filterTitle'>Tipologia</span>
+					<ul>";
+						for($i=0; $i<$dimTipol; $i++){
+							print "<li><input type='checkbox' name='tipol[]' value='".@allTipol[$i]."' ";					
+							if("@tipol" =~ /\b@allTipol[$i]\b/){
+								 print "checked='checked' ";
+							}
+							print "/>".@allTipol[$i]."</li>";						
+						}
+					print"</ul>
+				</li>
+				<li>
+					<span class='filterTitle'>Colore</span>
+					<ul>";
+						for($i=0; $i<$dimCol; $i++){
+							print "<li><input type='checkbox' name='colr[]' value='".@allColors[$i]."'";					
+							if("@colr" =~ /\b@allColors[$i]\b/){
+								 print "checked='checked' ";
+							}
+							print "/>".@allColors[$i]."</li>";						
+						}
+					print "</ul>
+				</li>
+				<li>
+					<span class='filterTitle'>Prezzo</span>
+					<ul>";
+						for($i=0; $i<$dimFP; $i++){
+							print "<li><input type='radio' name='fasciaprezzo' value='$i'";
+							if($i==$fprezzo){
+								print "checked='checked'";
+							}
+							print " />".@allFPrezzo[$i]."</li>";
+						}
+					print "</ul>
+				</li>
+				<li><input type='hidden' name='tipo' value=$tipo /></li>
+				";
+				if($prom eq "yes"){
+					print "<li><input type='hidden' name='prom' value=$prom /></li>";
+				}
+				print "<li><input type='submit' value='Applica Filtri' /></li>
+			</ul>
+		</form>".
+		("$admin" eq "admin" ? "<a href='../admin/formAddProd.cgi'>Aggiungi prodotto</a>" : "")
+		."<ul id='productsList'>";
+#============== RICERCA & INSERIMENTO PRODOTTI ==================
+		#ricerca nodi in base alla categoria scelta
+		
+		my $query = "";
+		
+		if($prom) {
+		  $query .= "//prodotto[attribute::promo='true'";
+		}else{
+		  $query .= "//prodotto[categoria/text()='$tipo'";
+		}
+		
+		my $min;
+		my $max;
+		if($fprezzo ne ""){
+			if($fprezzo==0){
+				$min=0;
+				$max=20.00;
+			}
+			if($fprezzo==1){
+				$min=20.01;
+				$max=50.00;
+			}
+			if($fprezzo==2){
+				$min=50.01;
+				$max=100.00;
+			}
+			if($fprezzo==3){
+				$min=100.01;
+				$max=10000.00;
+			}
+		}		
+		
+		for($i=0; $i<$nmat; $i++){
+			if($i==0){
+				$query.=" and (";			
+			}
+			$query.="materiale/text()='@mat[$i]' ";
+			if($i+1<$nmat){
+				$query.="or ";			
+			}else{
+				$query.=")";			
+			}
+		}
+		for($i=0; $i<$ntip; $i++){
+			if($i==0){
+				$query.=" and (";			
+			}
+			$query.="tipologia/text()='@tipol[$i]' ";
+			if($i+1<$ntip){
+				$query.="or ";			
+			}else{
+				$query.=")";			
+			}
+		}
+		for($i=0; $i<$ncol; $i++){
+			if($i==0){
+				$query.=" and (";			
+			}
+			$query.="coloriDisponibili/colore/text()='@colr[$i]' ";
+			if($i+1<$ncol){
+				$query.="or ";			
+			}else{
+				$query.=")";			
+			}
+		}
+
+		$query .= ($fprezzo ne "") ? " and (prezzo/text()>'$min' and prezzo/text()<'$max')" : "";
+		$query .= "]";
+
+		#print "<h2>$query</h2>";
+		
+		@products = $docProd->findnodes($query);
+		
+#================ STAMPA PRODOTTI SELEZIONATI ===============
+
+		#stampa attributi nodi Prodotto selezionati
+		for $p(@products){
+			$promo=$p->findnodes('attribute::promo');
+			$codice=$p->findnodes('attribute::codice');
+			$nome=$p->findnodes('nome/text()');
+			$prezzo=$p->findnodes('prezzo/text()');
+			$tipologia=$p->findnodes('tipologia/text()');
+			$categoria=$p->findnodes('categoria/text()');
+			$immagine=$p->findnodes('immaginiProdotto/immagine[1]/text()');
+			
+			$prezzo =~ s/\./,/;     # rimpiazza il punto con la virgola
+			
+print "		<li>	
+				<ul>
+					<li class='p_img'>
+						<span>Immagine: </span>
+						<a href='schedaProd.cgi?codice=$codice'>
+							<img src='../../public_html/images/prodotti/$immagine' alt='$nome'/>
+						</a>
+					</li>
+					<li class='p_name'>
+						<a href='schedaProd.cgi?codice=$codice'>
+							<span>Nome: </span> $nome
+						</a>
+					</li>
+					<li class='p_type'><span>Tipologia: </span> $tipologia </li>
+					<li class='p_price'><span>Prezzo: </span> $prezzo &euro;</li>";
+print 				(!$tipo ? "<li><span class='infotags'>Categoria: </span> $categoria </li>" : "");
+					#links amministratore
+					if("$admin" eq "admin") {
+						if($promo eq "false"){
+print "				<li class='p_prom_on'>
+						<a href='../admin/function/setPromoProd.cgi?cod=$codice&amp;promo=true'>Metti in promozione</a>
+					</li>";
+						}else{
+print "				<li class='p_prom_off'>
+						<a href='../admin/function/setPromoProd.cgi?cod=$codice&amp;promo=false'>Togli promozione</a>
+					</li>";
+						}
+print "				<li class='p_del'>
+						<a href='../admin/function/deleteProd.cgi?selProd=$codice'>Elimina</a>
+					</li>";
+					}	
+print "			 </ul>
+			</li>";
+		}
+print"	</ul>
+		<a id='topAnchor' href='#listTitle'>Torna su &#9650;</a>";
+		printFooter();
+print"
+	</body>
+</html>";

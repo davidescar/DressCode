@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<so:ordiniEffettuati xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:so="http://informatica.math.unipd.it" xs:schemaLocation="http://informatica.math.unipd.it ordini.xsd">
+	<ordine codice="00001" spedizione="standard">
+		<email>base@gmail.com</email>
+		<data>2016-01-15</data>
+		<prodottiAcquistati>
+			<prodotto>
+				<codice>00050</codice>
+				<nome>Extreme</nome>
+				<prezzo>21.60</prezzo>
+				<taglia>XS</taglia>
+				<colore>Azzurro</colore>
+				<quantita>2</quantita>
+			</prodotto>
+			<prodotto>
+				<codice>00001</codice>
+				<nome>Misfits</nome>
+				<prezzo>52.00</prezzo>
+				<taglia>S</taglia>
+				<colore>Azzurro</colore>
+				<quantita>2</quantita>
+			</prodotto>
+			<prodotto>
+				<codice>00117</codice>
+				<nome>Nitjackon</nome>
+				<prezzo>18.00</prezzo>
+				<taglia>XS</taglia>
+				<colore>Nero</colore>
+				<quantita>2</quantita>
+			</prodotto>
+		</prodottiAcquistati>
+	</ordine>
+	<ordine codice="00002" spedizione="gratuita">
+		<email>prova@prova.com</email>
+		<data>2016-01-17</data>
+		<prodottiAcquistati>
+			<prodotto>
+				<codice>00050</codice>
+				<nome>Extreme</nome>
+				<prezzo>21.60</prezzo>
+				<taglia>XS</taglia>
+				<colore>Azzurro</colore>
+				<quantita>1</quantita>
+			</prodotto>
+		</prodottiAcquistati>
+	</ordine>
+</so:ordiniEffettuati>
